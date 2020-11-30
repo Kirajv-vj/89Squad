@@ -1,6 +1,7 @@
 {
         "room": "89Squad",
 	 "author": "KiraJV",
+	"css": "https://raw.githack.com/ejox/xQcJungle.github.io/master/main.css",
         "rules": {
                 "allowAutorespond": false,
                 "allowAutowoot": true,
