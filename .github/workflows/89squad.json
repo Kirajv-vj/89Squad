@@ -1,0 +1,29 @@
+{
+        "room": "xQc's Jungle",
+	 "author": "ejox",
+        "rules": {
+                "allowAutorespond": false,
+                "allowAutowoot": true,
+                "allowAutojoin": true,
+                "allowAutograb": false,
+                "allowSmartVote": true,
+                "allowEmotes": true,
+                "allowShowingMehs": true,
+                "forceSmartVote": false
+        },
+        "ccc": {
+                "admin": "#ff2d2d",
+                "ambassador": "#ff1d82",
+                "host": "#ac76ff",
+                "cohost": "#ac76ff",
+                "manager": "#69ddff",
+                "bouncer": "#90b0cf",
+                "rdj": "#fe8d6a",
+                "subscriber": null,
+                "friend": "#90AD2F",
+                "user": null
+	},
+	"emotes": {
+		"brffDOLBIT": "https://cdn.betterttv.net/emote/5fb91b870d141d6f06d7df81/3x.gif"
+    }
+}
