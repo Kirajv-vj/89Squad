@@ -24,9 +24,22 @@
                 "friend": "#90AD2F",
                 "user": null
 	},
+	"images": {
+        "background":           null,
+        "playback":             null,
+        "admin":                null,
+        "ambassador":           null,
+        "host":                 null,
+        "cohost":               "https://i.imgur.com/OR3Mz33.png",
+        "manager":              null",
+        "bouncer":              null,
+        "rdj":                  null,
+        "subscriber":           null,
+        "silversubscriber":     null,
+    },
 	"emotes": {
 		"brffDOLBIT":"https://i.imgur.com/FrPh4gj.gif",
-		"catJAM":"https://i.imgur.com/d4LhhOF.gif",
+		"catjam":"https://i.imgur.com/d4LhhOF.gif",
 		"peepoRIP":"https://i.imgur.com/6Zu7nEd.gif",
 		"peepoHey":"https://i.imgur.com/7LG1Pe2.gif",
 		"peepoLeave":"https://i.imgur.com/EXsNhIA.gif",
@@ -40,7 +53,6 @@
 		"Agakakskagesh":"https://i.imgur.com/pvzmoDm.gif",
 		"Porvalo":"https://i.imgur.com/WaDZ1P2.gif",
 		"BASSgachi":"https://i.imgur.com/vUV9dqI.gif",
-		"gachiWW":"https://i.imgur.com/S0Z4stU.gif",
 		"TriDance":"https://i.imgur.com/bgGKvfA.gif",
 		"KKalinka":"https://i.imgur.com/XqhuKQZ.gif",
 		"BBoomer":"https://i.imgur.com/ZaPU36A.gif",
@@ -53,6 +65,8 @@
 		"peepoShy":"https://i.imgur.com/0RebE2R.gif",
 		"pepeDS":"https://i.imgur.com/YRv7xRT.gif",
 		"Clap":"https://i.imgur.com/zPcEc0g.gif",
-		"D:":"https://i.imgur.com/CJTBgfs.png"
+		"D":"https://i.imgur.com/CJTBgfs.png"
+		"brffDOLBIT":"https://i.imgur.com/FrPh4gj.gif",
+		"catjam":"https://i.imgur.com/d4LhhOF.gif",
     }
 }
