@@ -169,11 +169,7 @@
 .emote.role-dj {
     border-right: #fe8d6a 3px solid !important;
 }
-.message.role-bouncer,
-.emote.role-bouncer {
-    border-left: #90b0cf 3px dotted !important;
-    border-right: #90b0cf 3px dotted !important;
-}
+
 
 .message.role-manager,
 .emote.role-manager {
