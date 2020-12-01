@@ -1,12 +1,8 @@
-
-/* main */
-/* Icon fix :before */
 div.message > div.msg > div.from > span.un {
     vertical-align: top;
     horizontal-align: left;
 }
 
-/* Icon fix */
 #user-lists .list.room .user i.icon-chat-dj {
     top: 6px !important;
 }
@@ -43,7 +39,6 @@ div.message > div.msg > div.from > span.un {
     animation: rainbow 1s infinite;
 }
 
-/* Chat */
 
 #chat .welcome {
     color: #ff0000;
