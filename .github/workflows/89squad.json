@@ -1,6 +1,6 @@
 {
         "room": "89Squad",
-	 "author": "KiraJV",
+	"author": "KiraJV",
 	"css": "https://raw.githack.com/ejox/xQcJungle.github.io/master/main.css",
         "rules": {
                 "allowAutorespond": false,
@@ -25,18 +25,18 @@
                 "user": null
 	},
 	"images": {
-        "background":           null,
-        "playback":             null,
-        "admin":                null,
-        "ambassador":           null,
-        "host":                 null,
-        "cohost":               "https://i.imgur.com/OR3Mz33.png",
-        "manager":              null,
-        "bouncer":              null,
-        "rdj":                  null,
-        "subscriber":           null,
-        "silversubscriber":     null,
-    },
+        	"background":           null,
+        	"playback":             null,
+        	"admin":                null,
+        	"ambassador":           null,
+        	"host":                 null,
+        	"cohost":               "https://i.imgur.com/OR3Mz33.png",
+        	"manager":              null,
+        	"bouncer":              null,
+        	"rdj":                  null,
+        	"subscriber":           null,
+        	"silversubscriber":     null,
+    	},
 	"emotes": {
 		"brffDOLBIT":"https://i.imgur.com/FrPh4gj.gif",
 		"catjam":"https://i.imgur.com/d4LhhOF.gif",
@@ -67,5 +67,5 @@
 		"D":"https://i.imgur.com/CJTBgfs.png",
 		"brffDOLBIT":"https://i.imgur.com/FrPh4gj.gif",
 		"catjam":"https://i.imgur.com/d4LhhOF.gif",
-    }
+   	 }
 }
