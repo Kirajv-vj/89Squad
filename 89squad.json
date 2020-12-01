@@ -1,7 +1,7 @@
 {
         "room": "89Squad",
 	"author": "KiraJV",
-	"css": "https://raw.githack.com/89squad/89Squad/main/89squad.css",
+	"css": "https://rawcdn.githack.com/89squad/89Squad/5c597870d210a79e9e20be21f9302677986c66e7/89squad.css",
         "rules": {
                 "allowAutorespond": false,
                 "allowAutowoot": true,
