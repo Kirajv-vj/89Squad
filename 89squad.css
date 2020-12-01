@@ -100,7 +100,7 @@
 }
 
 .emote.role-cohost .text {
-    color: #ac76ff;
+    color: #00d0ff;
 }
 
 .emote.role-host .text {
@@ -184,8 +184,8 @@
 
 .message.role-cohost,
 .emote.role-cohost {
-    border-left: #ac76ff 3px solid !important;
-    border-right: #ac76ff 3px solid !important;
+    border-left: #00d0ff 3px solid !important;
+    border-right: #00d0ff 3px solid !important;
 }
 
 .message.role-host,
