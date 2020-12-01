@@ -1,6 +1,3 @@
-/* Custom Badges */
-
-/* General */
 #chat .badge-box i,
 .right-side-wrapper #chat .badge-box .icon-arrow-down {
     transform: scale(1) !important;
@@ -9,7 +6,7 @@
     background: none !important;
 }
 
-/* ejox */
+/* KiraJV */
 #chat-messages .id-55206086 .badge-box {
     width: 30px;
     height: 30px;
@@ -22,7 +19,6 @@
     transition: 0.5s;
 }
 
-/*User Badge*/
 #user-rollover.id-55206086 .badge-box i.bdg,
 #chat-messages .id-55206086 .badge-box i.bdg {
     background-image: url("https://i.imgur.com/TTuZa8k.gif");
@@ -38,6 +34,77 @@
 
 .cm.id-55206086::before {
     background-image: url("https://i.imgur.com/b4OyN8c.png");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    transition: 0.4s;
+}
+ 
+/* Epilepsia */
+
+#chat-messages .id-55205575 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-55205575 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+#user-rollover.id-55205575 .badge-box i.bdg,
+#chat-messages .id-55205575 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/t1c48jN.png");
+    background-size: cover;
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+
+/* Starichello */
+
+#chat-messages .id-55222121 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-55222121 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+#user-rollover.id-55222121 .badge-box i.bdg,
+#chat-messages .id-55222121 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/tcCfN1M.png");
+    background-size: cover;
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cm.id-55222121::before {
+    background-image: url("https://i.imgur.com/lHWukiB.png");
     background-repeat: no-repeat;
     content: "";
     position: absolute;
