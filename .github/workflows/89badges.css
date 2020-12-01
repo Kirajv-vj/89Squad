@@ -10,21 +10,21 @@
 }
 
 /* ejox */
-#chat-messages .id-3941421 .badge-box {
+#chat-messages .id-55206086 .badge-box {
     width: 30px;
     height: 30px;
     transition: 0.5s;
 }
 
-#chat-messages .id-3941421 .badge-box:hover {
+#chat-messages .id-55206086 .badge-box:hover {
     width: 65px;
     height: 65px;
     transition: 0.5s;
 }
 
 /*User Badge*/
-#user-rollover.id-3941421 .badge-box i.bdg,
-#chat-messages .id-3941421 .badge-box i.bdg {
+#user-rollover.id-55206086 .badge-box i.bdg,
+#chat-messages .id-55206086 .badge-box i.bdg {
     background-image: url("https://i.imgur.com/TTuZa8k.gif");
     background-size: cover;
     border-radius: 7px;
