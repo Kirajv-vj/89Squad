@@ -39,9 +39,8 @@
         	"silversubscriber":     null
     	},
 	"emotes": {
-		"brffdolbit":"https://i.imgur.com/FrPh4gj.gif",
-		"catjam":"https://i.imgur.com/d4LhhOF.gif",
-		"peepoRIP":"https://i.imgur.com/6Zu7nEd.gif",
+		"brffdolbit":"https://cdn.betterttv.net/emote/5fb91b870d141d6f06d7df81/1x",
+		"peeporip":"https://cdn.betterttv.net/emote/5f76392fce8bc74a94241a29/1x",
 		"peepoHey":"https://i.imgur.com/7LG1Pe2.gif",
 		"peepoLeave":"https://i.imgur.com/EXsNhIA.gif",
 		"peepoArrive":"https://i.imgur.com/Pz1WZ4b.gif",
@@ -65,8 +64,6 @@
 		"peeposhy":"https://cdn.betterttv.net/emote/5eaa12a074046462f768344b/1x",
 		"pepeDS":"https://i.imgur.com/YRv7xRT.gif",
 		"Clap":"https://i.imgur.com/zPcEc0g.gif",
-		"D":"https://i.imgur.com/CJTBgfs.png",
-		"brffDOLBIT":"https://i.imgur.com/FrPh4gj.gif",
 		"catjam":"https://i.imgur.com/d4LhhOF.gif"
    	 }
 }
