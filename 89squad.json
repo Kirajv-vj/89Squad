@@ -2,7 +2,7 @@
         "room": "89Squad",
 	"author": "KiraJV",
 	"css": "https://rawcdn.githack.com/89squad/89Squad/033c6f2d1f758f3218613b6b0c5edfa5e7e6ebc6/89squad.css",
-	"javasript": "https://rawcdn.githack.com/89squad/89Squad/18ef818370460a43cfbe3014d62ef366f040a2ed/89squad.js",
+	"javascript": "https://rawcdn.githack.com/89squad/89Squad/18ef818370460a43cfbe3014d62ef366f040a2ed/89squad.js",
         "rules": {
                 "allowAutorespond": false,
                 "allowAutowoot": true,
