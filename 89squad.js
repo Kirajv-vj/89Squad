@@ -1,42 +1,6 @@
-// ==UserScript==
-// @name         Plug.dj YT API Key workaround
-// @namespace    https://plug.dj?refuid=4613422
-// @version      1.6.0
-// @author       WiBla (contact.wibla@gmail.com)
-// @description  This script will add a button next to "import/create playlist" that allows you to add videos without searching for them
-// @downloadURL  https://gist.github.com/WiBla/ad1aa9a98949c624cd2886c1a25b5feb/raw/8d83fc7bb1ac77f8ff9494023991e21e5599ec56/yt-workaround.user.js
-// @updateURL    https://gist.github.com/WiBla/ad1aa9a98949c624cd2886c1a25b5feb/raw/8d83fc7bb1ac77f8ff9494023991e21e5599ec56/yt-workaround.user.js
-// @include      *://plug.dj/*
-// @include      *://*.plug.dj/*
-// @exclude      *://*.plug.dj/_/*
-// @exclude      *://*.plug.dj/@/*
-// @exclude      *://*.plug.dj/!/*
-// @exclude      *://*.plug.dj/about
-// @exclude      *://*.plug.dj/ba
-// @exclude      *://*.plug.dj/forgot-password
-// @exclude      *://*.plug.dj/founders
-// @exclude      *://*.plug.dj/giftsub/*
-// @exclude      *://*.plug.dj/jobs
-// @exclude      *://*.plug.dj/legal
-// @exclude      *://*.plug.dj/merch
-// @exclude      *://*.plug.dj/partners
-// @exclude      *://*.plug.dj/plot
-// @exclude      *://*.plug.dj/privacy
-// @exclude      *://*.plug.dj/purchase
-// @exclude      *://*.plug.dj/subscribe
-// @exclude      *://*.plug.dj/team
-// @exclude      *://*.plug.dj/terms
-// @exclude      *://*.plug.dj/press
-// @grant        none
-// @run-at       document-end
-// ==/UserScript==
-
-/* global $, gapi, API, _, require */
 (function() {
     'use strict';
 
-    // Because plug.dj hides the interface while loading, this is necessary
-    // We can't just use document.readyState ($.ready)
     function plugReady() {
         return typeof API !== 'undefined' && API.enabled && typeof jQuery !== 'undefined' && typeof require !== 'undefined';
     }
@@ -52,10 +16,8 @@
 
         if (APIKey == null) {
             APIKey = 'AIzaSyD--___tekD3NI_-Sj8cAnNyuDKFmdtOkM';
-            API.chatLog('⚠ YT-workaround is using the default API key, this is not recommended as everyone uses the same and it is very limited. If you know how, you should definitely get your own and configure it with /key [YOUR KEY HERE]');
-        } else {
-            API.chatLog('YT-workaround is using a custom key, you rock 💪');
-        }
+            API.chatLog('Ютуб не работает, введи /key [ТВОЙ КЛЮЧ]');
+        } 
         window.gapi.client.setApiKey(APIKey);
 
         function convert_time(duration) {
@@ -106,7 +68,6 @@
                 success: (data) => {
                     media.author = data.items[0].snippet.title.split('-');
 
-                    // Media doesn't contain any "-" so we add the channel name as author
                     if (media.author.length === 1) {
                         media.title = media.author[0].trim();
                         media.author = data.items[0].snippet.channelTitle;
@@ -168,44 +129,11 @@
             completeMedia(media);
         }
 
-        // let found = false;
-        // function findPlaylist() {
-        //     if (found) return askCID();
-        //     pl.name = prompt('In which playlist do you wish to add the song?\nName must be exactly the same');
-        //     if (!!pl.name === false) return;
-
-        //     $.ajax({
-        //         url: '/_/playlists',
-        //         success: (data) => {
-        //             data.data.forEach((playlist, i, a) => {
-        //                 if (playlist.name === pl.name) {
-        //                     if (playlist.count === 200) {
-        //                         alert(`${pl.name} is full!`);
-        //                     } else {
-        //                         pl.id = playlist.id;
-        //                         found = true;
-        //                         askCID();
-        //                     }
-        //                 }
-        //                 if (i + 1 >= a.length && !found) {
-        //                     if (confirm(`"${pl.name}" couldn't be found. Do you whish to add the media in "${playlist.name}"?`)) {
-        //                         pl = playlist;
-        //                         askCID();
-        //                     }
-        //                 }
-        //             });
-        //         }
-        //     });
-        // }
+        
 
         var $grabBtn = $('<div id="playlist-add-button" class="button" title="YouTube Grab+">'+
                              '<i class="fa fa-plus-square"></i>'+
                          '</div>');
-
-        // $grabBtn.click(function(event) {
-        //     found = event.ctrlKey ? false : found;
-        //     findPlaylist();
-        // });
 
         var playlists = _.find(require.s.contexts._.defined, (m)=>m&&m.activeMedia);
         $grabBtn.click(function() {
@@ -235,7 +163,7 @@
 
                 window.gapi.client.setApiKey(cmd[1]);
                 localStorage.setItem('yt-api-key', cmd[1]);
-                API.chatLog('Custom API key saved! You\'re a pro 👍');
+                API.chatLog('Ключ сохранен!');
             } else {
                 API.chatLog('Please use this format: /key [KEY] (do not include the square brackets obviously)');
             }
