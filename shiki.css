@@ -339,7 +339,8 @@ textarea {
 .b-dialog>.inner header .name-date a.name, 
 .b-message>.inner header .name-date a.name { 
   color: #dad5ff!important; 
-  font-size: 15.5px; } 
+  font-size: 15.5px; 
+} 
 
 .b-comment>.inner header .name-date a.name:hover, 
 .b-dialog>.inner header .name-date a.name:hover, 
@@ -451,7 +452,8 @@ textarea {
 
 .b-stats_bar.anime .bar .second { 
   background: #45924C; 
-  opacity: 0.7; } 
+  opacity: 0.7; 
+} 
 
 .b-stats_bar.anime .bar .first { 
   background: #296B2F; 
@@ -1064,7 +1066,8 @@ input, select, button, textarea {
 } 
 
 .c-actions .new_comment:before { 
-  transition: 0.3s ease; color: #a19efd; 
+  transition: 0.3s ease; 
+  color: #a19efd; 
 } 
 
 .c-actions .new_comment:hover:before, .c-actions .fav-remove:before { 
@@ -1072,7 +1075,8 @@ input, select, button, textarea {
 } 
 
 .c-actions .new_review:before { 
-  transition: 0.3s ease; color: #a19efd; 
+  transition: 0.3s ease; 
+  color: #a19efd; 
 } 
 
 .c-actions .new_review:hover:before { 
@@ -1089,7 +1093,8 @@ input, select, button, textarea {
 } 
 
 .c-actions .edit:before { 
-  transition: 0.3s ease; color: #a19efd; 
+  transition: 0.3s ease; 
+  color: #a19efd; 
 } 
 
 .c-actions .edit:hover:before { 
@@ -1489,7 +1494,8 @@ header.head .notice {
 } 
 
 .b-club .info .number { 
-  color: #8891d4; padding-right: 4px; 
+  color: #8891d4; 
+  padding-right: 4px; 
 } 
 
 .b-club .info .value { 
@@ -1586,7 +1592,8 @@ header.head a.misc, header.head a.edit:hover {
 } 
 
 .b-main_search .popup li.active { 
-  background:rgba(134, 141, 193, 0.3)!important; border-radius:4px; 
+  background:rgba(134, 141, 193, 0.3)!important; 
+  border-radius:4px; 
 } 
 
 .l-top_menu .menu-search .arrow-container .arrow-down, 
@@ -1611,7 +1618,9 @@ header.head a.misc, header.head a.edit:hover {
 } 
 
 .p-profiles-show .lifetime .times .time {
-  white-space: normal; min-width: 50px; line-height: 20px; 
+  white-space: normal; 
+  min-width: 50px;
+  line-height: 20px; 
 } 
 
 .p-profiles-edit .account .change-password a {
@@ -7460,31 +7469,239 @@ body#achievements_index img {
     margin-right: 2%; 
   } 
 
-  .b-video_player .cc-player_controls .cc-navigation>.c-control.prev, .b-video_player .cc-player_controls .cc-navigation>.c-control.next { padding: 10px 0px; } 
+  .b-video_player .cc-player_controls .cc-navigation>.c-control.prev, 
+  .b-video_player .cc-player_controls .cc-navigation>.c-control.next { 
+    padding: 10px 0px; 
+  } 
 
-  .b-video_player .cc-player_controls .cc-navigation>.c-control .icon { background: rgba(46, 45, 97, 0.6); box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2); border-radius:4px; padding: 6px 0px; } .b-video_player .cc-player_controls .cc-navigation>.c-control.episode-num { width: 40%; box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2); border-radius:4px; } .b-video_player .cc-player_controls .episode-num input { font-size: 20px; font-weight: bold; line-height: 30px!important; text-align: center; vertical-align: middle; padding: 0 2px; box-shadow: inset 0 2px 6px 2px rgba(0, 0, 0, 0.2); width: 50px; height: 35px; margin-right: 13%; margin-top: 7px; } 
+  .b-video_player .cc-player_controls .cc-navigation>.c-control .icon { 
+    background: rgba(46, 45, 97, 0.6);
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+    border-radius:4px; 
+    padding: 6px 0px; 
+  }
+  
+  .b-video_player .cc-player_controls .cc-navigation>.c-control.episode-num { 
+    width: 40%; 
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+    border-radius:4px; 
+  } 
+  
+  .b-video_player .cc-player_controls .episode-num input { 
+    font-size: 20px; 
+    font-weight: bold; 
+    line-height: 30px!important;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 2px; 
+    box-shadow: inset 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+    width: 50px;
+    height: 35px;
+    margin-right: 13%;
+    margin-top: 7px; 
+  } 
 
-  .c-control.episode-num b { padding: 0px 4px 0px 0px; height: 50px!important; top: 5px; position: relative; } .b-video_player .cc-player_controls .episode-num .video-link.video-link { height: 20px; line-height: 20px; } 
+  .c-control.episode-num b { 
+    padding: 0px 4px 0px 0px; 
+    height: 50px!important;
+    top: 5px; 
+    position: relative; 
+  } 
+  
+  .b-video_player .cc-player_controls .episode-num .video-link.video-link { 
+    height: 20px; 
+    line-height: 20px; 
+  } 
 
   .b-video_player .cc-player_controls .episode-num .video-link a {
     color: #8891d4c9; 
   } 
   
-  .c-buttons.cc-3a .c-control { background: rgba(46, 45, 97, 0.34); box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.15); border-radius: 4px; } .c-buttons.cc-3a .c-control:hover { background: rgba(46, 45, 97, 0.34)!important; box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.15)!important; } 
+  .c-buttons.cc-3a .c-control { 
+    background: rgba(46, 45, 97, 0.34); 
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.15); 
+    border-radius: 4px; 
+  } 
+  
+  .c-buttons.cc-3a .c-control:hover { 
+    background: rgba(46, 45, 97, 0.34)!important;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.15)!important; 
+  } 
 
-  .c-buttons.cc-3a { width: 100%!important; } .b-video_player .cc-player_controls .c-control:hover { background: none; box-shadow: none; } .cc-optional_controls .c-control { background: rgba(46, 45, 97, 0.6); box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2); border-radius: 4px; height: 42px; margin: 10px 0px; } .b-video_player .cc-player_controls .cc-options>.c-video_stats { width: 100%; } .p-anime_videos-index .c-video_stats .views_count { display: inline-block; width: auto; float: left; line-height: 26px; height: 26px; } 
+  .c-buttons.cc-3a { 
+    width: 100%!important; 
+  } 
+  
+  .b-video_player .cc-player_controls .c-control:hover { 
+    background: none; 
+    box-shadow: none; 
+  }
+  
+  .cc-optional_controls .c-control {
+    background: rgba(46, 45, 97, 0.6); 
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 4px; 
+    height: 42px; 
+    margin: 10px 0px; 
+  }
+  
+  .b-video_player .cc-player_controls .cc-options>.c-video_stats { 
+    width: 100%; 
+  }
+  
+  .p-anime_videos-index .c-video_stats .views_count { 
+    display: inline-block; 
+    width: auto; 
+    float: left; 
+    line-height: 26px; 
+    height: 26px; 
+  } 
 
-  .p-anime_videos-index .c-video_stats .uploader { display: inline-block; width: auto; line-height: 26px; height: 26px; } .b-video_player .cc-player_controls .label { display: none; } .b-video_player .cc-player_controls .upload .icon:before, .b-video_player .cc-player_controls .edit .icon:before { line-height: 42px; } video#main-video_html5_api .vjs-big-play-button { margin-top: -45px!important; } .p-anime_videos-index .c-videos .video-variant-switcher.active { color: #b7c0f1; background: #d2892d73; font-weight: bold; } .title .video-variant-switcher { background: #000; padding: 3px 5px; border-radius: 4px; box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1)!important; background: rgba(46, 45, 97, 0.4); }
+  .p-anime_videos-index .c-video_stats .uploader { 
+    display: inline-block; 
+    width: auto; 
+    line-height: 26px; 
+    height: 26px; 
+  } 
+  
+  .b-video_player .cc-player_controls .label { 
+    display: none; 
+  } 
+  
+  .b-video_player .cc-player_controls .upload .icon:before,
+  .b-video_player .cc-player_controls .edit .icon:before {
+    line-height: 42px; 
+  } 
+  
+  video#main-video_html5_api .vjs-big-play-button { 
+    margin-top: -45px!important; 
+  } 
+  
+  .p-anime_videos-index .c-videos .video-variant-switcher.active { 
+    color: #b7c0f1; 
+    background: #d2892d73; 
+    font-weight: bold; 
+  } 
+  
+  .title .video-variant-switcher { 
+    background: #000; 
+    padding: 3px 5px; 
+    border-radius: 4px; 
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1)!important; 
+    background: rgba(46, 45, 97, 0.4); 
+  }
 
-  .b-video_variant .episode-hostings:before, .b-video_variant .video-hosting:before, .b-video_variant .video-language:before { content:none; } 
+  .b-video_variant .episode-hostings:before, .b-video_variant .video-hosting:before, 
+  .b-video_variant .video-language:before { 
+    content:none; 
+  } 
 
-  .b-video_variant .episode-hostings:after, .b-video_variant .video-hosting:after, .b-video_variant .video-language:after { content: ''; position: absolute; top: 0; max-width: 500px; left: 0; width: 100%; min-height: 42px; } .c-videos .b-video_variant.active { background: #31345fd6; } .b-video_variant.active a { color:#d2892d; font-weight: bold; } .b-video_variant .video-quality.bd { background: url(/assets/blocks/b-video_variant/bd.png) no-repeat; -webkit-background-size: 56px 12px; background-size: 56px 12px; height: 16px; right: 20px; top: 20px; transform: scale(1.5); z-index: -1; opacity: 0.5; width: 61px; position: absolute; } 
+  .b-video_variant .episode-hostings:after, .b-video_variant .video-hosting:after, .b-video_variant .video-language:after { 
+    content: ''; 
+    position: absolute;
+    top: 0;
+    max-width: 500px;
+    left: 0; 
+    width: 100%;
+    min-height: 42px; 
+  }
+  
+  .c-videos .b-video_variant.active { 
+    background: #31345fd6; 
+  } 
+  
+  .b-video_variant.active a { 
+    color:#d2892d; 
+    font-weight: bold; 
+  }
+  
+  .b-video_variant .video-quality.bd { 
+    background: url(/assets/blocks/b-video_variant/bd.png) no-repeat;
+    -webkit-background-size: 56px 12px;
+    background-size: 56px 12px; 
+    height: 16px; 
+    right: 20px; 
+    top: 20px; 
+    transform: scale(1.5);
+    z-index: -1; 
+    opacity: 0.5;
+    width: 61px; 
+    position: absolute;
+  } 
 
-  .b-video_variant a:hover { border: none; background: none; } body#profiles_show .c-column.c-right .b-catalog_entry { padding: 2px 2px!important; } .p-animes_collection-index.x1000 .cc-entries, .p-animes_collection-index.x1200 .cc-entries { padding: 0px; } .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:hover, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:hover { clip-path: none; transform: none; } } @media screen and (max-width: 650px){ .p-profiles-show .cc-friends .b-user:nth-child(11), .p-profiles-show .cc-friends .b-user:nth-child(12) { display: none!important; } .p-profiles-show .cc-friends .b-user:nth-child(5n+1) { clear: left; } 
+  .b-video_variant a:hover { border: none; background: none; } body#profiles_show .c-column.c-right .b-catalog_entry { 
+    padding: 2px 2px!important; 
+  }
+  
+  .p-animes_collection-index.x1000 .cc-entries, .p-animes_collection-index.x1200 .cc-entries { 
+    padding: 0px; 
+  } 
+  
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:hover, 
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:hover { 
+    clip-path: none;
+    transform: none; 
+  } 
+} 
 
-  .p-profiles-show .cc-friends .b-user:nth-child(6n+1) { clear: none; }
+@media screen and (max-width: 650px) {
+  
+  .p-profiles-show .cc-friends .b-user:nth-child(11), .p-profiles-show .cc-friends .b-user:nth-child(12) {
+    display: none!important;
+  }
+  
+  .p-profiles-show .cc-friends .b-user:nth-child(5n+1) {
+    clear: left; 
+  } 
 
-  .p-profiles-show .cc-friends .b-user { margin-right: 1%; position: relative; width: 18%; margin-left: 1%; } .b-clubs.one-line .b-club:nth-child(4n) { display: none; } .b-clubs.one-line .b-club { margin-right: 0%; position: relative; width: 30%!important; margin-left: 3%; } .b-club .logo { display: block; line-height: 0; margin: 0 auto; max-width: 100%; height: auto!important; } .b-user.avatar img { display: block; line-height: 0; margin: 0 auto; max-width: 100%; height: auto!important; } } @media screen and (max-width: 540px){ .b-club .logo { display: block; line-height: 0; margin: 0 auto; max-width: 100%; height: auto!important; } 
+  .p-profiles-show .cc-friends .b-user:nth-child(6n+1) { 
+    clear: none;
+  }
+
+  .p-profiles-show .cc-friends .b-user { 
+    margin-right: 1%;
+    position: relative;
+    width: 18%; 
+    margin-left: 1%; 
+  } 
+    
+  .b-clubs.one-line .b-club:nth-child(4n) { 
+    display: none; 
+  }
+    
+  .b-clubs.one-line .b-club {
+    margin-right: 0%;
+    position: relative;
+    width: 30%!important;
+    margin-left: 3%; 
+  }
+    
+  .b-club .logo { 
+    display: block;
+    line-height: 0;
+    margin: 0 auto;
+    max-width: 100%; 
+    height: auto!important;
+  }
+    
+  .b-user.avatar img { 
+    display: block; 
+    line-height: 0; 
+    margin: 0 auto; 
+    max-width: 100%;
+    height: auto!important; 
+  }
+}
+
+@media screen and (max-width: 540px) { 
+  
+  .b-club .logo { 
+    display: block; 
+    line-height: 0; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto!important; 
+  } 
 
   .b-user.avatar img { 
     display: block; 
@@ -7504,32 +7721,201 @@ body#achievements_index img {
     padding: 6px 5px 10px 5px; 
   } 
   
-.b-message > .inner div.body .b-catalog_entry.cc .content{ width: 280px; } } @media screen and (max-width: 480px) and (orientation: portrait) { .p-profiles .profile-head .c-history { display: block; } .p-profiles-show .cc-friends .b-user { width: 18%; } .b-clubs.one-line .b-club { margin-right: 3%; margin-left: 3%; width: 28%!important; position: relative; } 
+  .b-message > .inner div.body .b-catalog_entry.cc .content { 
+    width: 280px; 
+  } 
+} 
+
+@media screen and (max-width: 480px) and (orientation: portrait) { 
   
-.p-animes_collection-index .cc-entries>.c-column, .p-mangas_collection-index .cc-entries>.c-column, .p-recommendations-index .cc-entries>.c-column, .p-userlist_comparer-show .cc-entries>.c-column, .p-animes_collection-index.x1000 .cc-entries>.c-column, .p-mangas_collection-index.x1000 .cc-entries>.c-column, .p-recommendations-index.x1000 .cc-entries>.c-column, .p-userlist_comparer-show.x1000 .cc-entries>.c-column { margin-right: 2%; margin-left: 2%; } 
-  
-.p-animes_collection-index .cc-entries>.c-column, .p-mangas_collection-index .cc-entries>.c-column, .p-recommendations-index .cc-entries>.c-column, .p-userlist_comparer-show .cc-entries>.c-column { width: 46%; } #cutted_covers_1 .image-cutter { max-width: 224px; max-height: 174.2px; } .x1000 .menu-slide-outer.x199 .l-content, .menu-slide-outer.x199 .l-content { width: 98%!important; } .b-dialog .b-message { margin-left:0px; } .b-dialog > .inner div.body { margin-left: 10px!important; } .b-shiki_editor aside.buttons { width: 70%; float: left!important; } .b-shiki_editor aside.buttons .editor-spoiler { margin-left:35px; } 
-  
-.b-shiki_editor .links, .b-shiki_editor .images, .b-shiki_editor .quotes, .b-shiki_editor .email, .b-shiki_editor .upload { height: 43px; }
-  
-.c-actions .new_comment, .c-actions .new_review, .c-actions .edit, .c-actions .fav-add {
-  width:100%; 
+  .p-profiles .profile-head .c-history { 
+    display: block; 
   }
   
-.c-actions .new_comment:after, .c-actions .new_review:after, .c-actions .edit:after, .c-actions .fav-add:after { font-size: 11.5px; height: 50px; padding-left: 0px; vertical-align: middle; word-break: normal; text-align:center; } .c-actions .new_comment:before, .c-actions .new_review:before, .c-actions .edit:before, .c-actions .fav-add:before { font-size: 40px; position: absolute; vertical-align: middle; width: 20px; width: 100%; line-height: 50px; text-align:center; z-index: -1; opacity: 0.25; } .b-db_entry .trigger, .b-db_entry-note .name-container .b-user_rate .b-add_to_list .trigger, .b-db_entry-note .name-container .b-user_rate .b-add_to_list .option { max-width:500px; } 
-  
-.b-message > .inner div.body .b-catalog_entry.cc .content { 
-  width: 140px; 
-  min-height: 160px; 
+  .p-profiles-show .cc-friends .b-user { 
+    width: 18%; 
   } 
   
-.b-message > .inner div.body .entry-tooltip_container { min-height: 180px; } .b-catalog-entry-embedded .trigger { width: 270px!important; margin-left: -110px; position: absolute; margin-top: 5px; } .b-catalog-entry-embedded .expanded-options { top: 35px; right: 130px; width: 270px; } } .b-message { padding-bottom: 15px; } .b-catalog-entry-embedded .b-catalog_entry { padding-bottom: 20px!important; } .block.m0 .b-message { padding-bottom:10px!important; } .b-comments { padding-bottom: 10px; } .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:before, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime:before { left: 11px; } 
+  .b-clubs.one-line .b-club { 
+    margin-right: 3%; 
+    margin-left: 3%; 
+    width: 28%!important; 
+    position: relative; 
+  } 
 
-.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:before, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga:before { left:60px; } .b-stats_bar.anime .compatibility a:before, .b-stats_bar.anime .compatibility .text.zero:before, .b-stats_bar.anime .compatibility .text.weak:before, .b-stats_bar.anime .compatibility .text.high:before, .b-stats_bar.anime .compatibility .text.moderate:before, .b-stats_bar.anime .compatibility .text.full:before { left: 1px; }
+  .p-animes_collection-index .cc-entries>.c-column, .p-mangas_collection-index .cc-entries>.c-column,
+  .p-recommendations-index .cc-entries>.c-column, .p-userlist_comparer-show .cc-entries>.c-column,
+  .p-animes_collection-index.x1000 .cc-entries>.c-column, .p-mangas_collection-index.x1000 .cc-entries>.c-column,
+  .p-recommendations-index.x1000 .cc-entries>.c-column, .p-userlist_comparer-show.x1000 .cc-entries>.c-column { 
+    margin-right: 2%; 
+    margin-left: 2%; 
+  } 
 
-.b-stats_bar.manga .compatibility a:before, .b-stats_bar.manga .compatibility .text.zero:before, .b-stats_bar.manga .compatibility .text.weak:before, .b-stats_bar.manga .compatibility .text.high:before, .b-stats_bar.manga .compatibility .text.moderate:before, .b-stats_bar.manga .compatibility .text.full:before { left: 52px; } .p-profiles .profile-head .c-brief .avatar .profile-actions { right: 0!important; } .b-catalog_entry-tooltip .trigger { left: -20px; } } @media screen and (max-width:480px) { .b-catalog_entry-tooltip .trigger { left: -20px; } th.num.order-control[data-order='episodes'] { display: none; } .p-user_rates-index .list-lines tr .num { display: table-cell!important; } 
+  .p-animes_collection-index .cc-entries>.c-column, .p-mangas_collection-index .cc-entries>.c-column,
+  .p-recommendations-index .cc-entries>.c-column, .p-userlist_comparer-show .cc-entries>.c-column { 
+    width: 46%; 
+  }
   
-.was_updated span { font-size: 0px; } .was_updated span:before { content: 'Изменено'; font-size: 12px; } a.actor.b-user16 span:before { content: none; } a.actor.b-user16 span { font-size: 12px; } }
+  #cutted_covers_1 .image-cutter { 
+    max-width: 224px; 
+    max-height: 174.2px; 
+  } 
+  
+  .x1000 .menu-slide-outer.x199 .l-content, .menu-slide-outer.x199 .l-content { 
+    width: 98%!important; 
+  } 
+  
+  .b-dialog .b-message { 
+    margin-left:0px; 
+  }
+  
+  .b-dialog > .inner div.body { 
+    margin-left: 10px!important; 
+  } 
+  
+  .b-shiki_editor aside.buttons { 
+    width: 70%; 
+    float: left!important;
+  }
+  
+  .b-shiki_editor aside.buttons .editor-spoiler { 
+    margin-left:35px; 
+  } 
+
+  .b-shiki_editor .links, .b-shiki_editor .images, .b-shiki_editor .quotes, 
+  .b-shiki_editor .email, .b-shiki_editor .upload { 
+    height: 43px; 
+  }
+  
+  .c-actions .new_comment, .c-actions .new_review, .c-actions .edit, .c-actions .fav-add {
+    width:100%; 
+  }
+  
+  .c-actions .new_comment:after, .c-actions .new_review:after, 
+  .c-actions .edit:after, .c-actions .fav-add:after { 
+    font-size: 11.5px;
+    height: 50px;
+    padding-left: 0px;
+    vertical-align: middle;
+    word-break: normal;
+    text-align:center; 
+  }
+  
+  .c-actions .new_comment:before, .c-actions .new_review:before, 
+  .c-actions .edit:before, .c-actions .fav-add:before { 
+    font-size: 40px;
+    position: absolute;
+    vertical-align: middle;
+    width: 20px;
+    width: 100%;
+    line-height: 50px;
+    text-align:center;
+    z-index: -1;
+    opacity: 0.25; 
+  } 
+  
+  .b-db_entry .trigger, .b-db_entry-note .name-container .b-user_rate .b-add_to_list .trigger,
+  .b-db_entry-note .name-container .b-user_rate .b-add_to_list .option { 
+    max-width:500px; 
+  } 
+
+  .b-message > .inner div.body .b-catalog_entry.cc .content { 
+    width: 140px; 
+    min-height: 160px; 
+  } 
+  
+  .b-message > .inner div.body .entry-tooltip_container { 
+    min-height: 180px; 
+  } 
+  
+  .b-catalog-entry-embedded .trigger { 
+    width: 270px!important; 
+    margin-left: -110px; 
+    position: absolute; 
+    margin-top: 5px; 
+  }
+  
+  .b-catalog-entry-embedded .expanded-options {
+    top: 35px;
+    right: 130px; 
+    width: 270px; 
+  }
+}
+
+.b-message { 
+  padding-bottom: 15px; 
+}
+
+.b-catalog-entry-embedded .b-catalog_entry { 
+  padding-bottom: 20px!important; 
+} 
+
+.block.m0 .b-message { 
+  padding-bottom:10px!important; 
+} 
+
+.b-comments { 
+  padding-bottom: 10px; 
+} 
+
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:before, 
+.x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime:before { 
+  left: 11px; 
+} 
+
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:before,
+.x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga:before { 
+  left:60px; 
+} 
+
+.b-stats_bar.anime .compatibility a:before, .b-stats_bar.anime .compatibility .text.zero:before, 
+.b-stats_bar.anime .compatibility .text.weak:before, .b-stats_bar.anime .compatibility .text.high:before,
+.b-stats_bar.anime .compatibility .text.moderate:before, .b-stats_bar.anime .compatibility .text.full:before { 
+  left: 1px;
+}
+
+.b-stats_bar.manga .compatibility a:before, .b-stats_bar.manga .compatibility .text.zero:before, 
+.b-stats_bar.manga .compatibility .text.weak:before, .b-stats_bar.manga .compatibility .text.high:before,
+.b-stats_bar.manga .compatibility .text.moderate:before, .b-stats_bar.manga .compatibility .text.full:before { 
+  left: 52px; 
+} 
+
+.p-profiles .profile-head .c-brief .avatar .profile-actions { 
+  right: 0!important; 
+}
+
+.b-catalog_entry-tooltip .trigger { 
+  left: -20px; 
+} 
+
+
+@media screen and (max-width:480px) { 
+  
+  .b-catalog_entry-tooltip .trigger { 
+    left: -20px; 
+  } 
+  
+  th.num.order-control[data-order='episodes'] { 
+    display: none; 
+  }
+  
+  .p-user_rates-index .list-lines tr .num {
+    display: table-cell!important; 
+  } 
+
+  .was_updated span { 
+    font-size: 0px; 
+  } 
+  
+  .was_updated span:before { 
+    content: 'Изменено'; 
+    font-size: 12px; 
+  }
+  
+  a.actor.b-user16 span:before { content: none; } a.actor.b-user16 span { 
+    font-size: 12px; 
+  }
+}
 
 @media screen and (max-width: 480px) and (orientation: portrait) {
   
@@ -7621,172 +8007,1475 @@ body#achievements_index img {
   transform: scale(1.3)!important; 
   } 
   
-.p-profiles .profile-head .c-brief .avatar img:hover { transform: scale(1.3)!important; } .p-profiles .profile-head:hover .c-brief .avatar img { transform: scale(1.3)!important; } .subheadline.m13 { left: 8px; } .b-stats_bar.anime .compatibility a:before, .b-stats_bar.anime .compatibility .text.zero:before, .b-stats_bar.anime .compatibility .text.weak:before, .b-stats_bar.anime .compatibility .text.high:before, .b-stats_bar.anime .compatibility .text.moderate:before, .b-stats_bar.anime .compatibility .text.full:before { left: 0px; } 
+  .p-profiles .profile-head .c-brief .avatar img:hover { 
+    transform: scale(1.3)!important; 
+  } 
   
-.b-stats_bar.manga .compatibility a:before, .b-stats_bar.manga .compatibility .text.zero:before, .b-stats_bar.manga .compatibility .text.weak:before, .b-stats_bar.manga .compatibility .text.high:before, .b-stats_bar.manga .compatibility .text.moderate:before, .b-stats_bar.manga .compatibility .text.full:before { left: 50px; } .b-stats_bar.anime .compatibility .rate { left: 20px; } .b-stats_bar.manga .compatibility .rate { left: 69px; } .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:before, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime:before { content: 'ANIME'; position: absolute; top: 70px; left: 11px; font-size: 10px; padding: 2px 4px; color: #45924C; } 
+  .p-profiles .profile-head:hover .c-brief .avatar img { 
+    transform: scale(1.3)!important; 
+  } 
   
-.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:before, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga:before { content: 'MANGA'; position: absolute; top: 70px; left: 58px; font-size: 10px; padding: 2px 4px; color: #de2b74; }
+  .subheadline.m13 { 
+    left: 8px; 
+  } 
   
-.p-profiles-show .lifetime .title .value { width: 69px; bordeR: none; } .b-catalog-entry-embedded .b-catalog_entry { padding-bottom: 20px!important; } .entry-tooltip_container { min-height: 155px; } .b-add_to_list.watching .trigger, .b-add_to_list.watching .option, .b-add_to_list.rewatching .trigger, .b-add_to_list.rewatching .option { max-width: 500px; } 
+  .b-stats_bar.anime .compatibility a:before, .b-stats_bar.anime .compatibility .text.zero:before,
+  .b-stats_bar.anime .compatibility .text.weak:before, .b-stats_bar.anime .compatibility .text.high:before,
+  .b-stats_bar.anime .compatibility .text.moderate:before, .b-stats_bar.anime .compatibility .text.full:before {
+    left: 0px; 
+  } 
 
-.p-profiles-show .lifetime .title .value { margin-top: -10px; margin-right: 10px; text-align: center; } .b-catalog-entry-embedded .trigger { width: 270px!important; margin-left: -110px; position: absolute; margin-top: 5px; } .b-catalog-entry-embedded .expanded-options { top: 35px; right: 110px; width: 270px; } .cc { margin-bottom: 10px; } .l-page { padding: 10px!important; } .b-options-floated.mobile-desktop a { width: 250px; } .subheadline.m13 { left: 5px!important; } .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:before, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime:before { left: 6px; }
+  .b-stats_bar.manga .compatibility a:before, .b-stats_bar.manga .compatibility .text.zero:before,
+  .b-stats_bar.manga .compatibility .text.weak:before, .b-stats_bar.manga .compatibility .text.high:before,
+  .b-stats_bar.manga .compatibility .text.moderate:before, .b-stats_bar.manga .compatibility .text.full:before {
+    left: 50px; 
+  } 
   
-.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:before, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga:before { left: 53px; } 
+  .b-stats_bar.anime .compatibility .rate { 
+    left: 20px; 
+  }
   
-.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga { padding: 0px 15px; } .profile-actions .mail, .profile-actions .talk, .profile-actions .fav-remove, .profile-actions .ban, .profile-actions .fav-add, .profile-actions .settings, .profile-actions .ignore-add, .profile-actions .ignore-remove { padding: 5px 8px 5px!important; } .p-profiles .profile-head .c-brief .avatar .profile-actions { width: 110px; } 
+  .b-stats_bar.manga .compatibility .rate { 
+    left: 69px; 
+  }
   
-.profile-content > .cc-2 .c-column .cc-2a.m30 { margin-top: -572px; } .p-profiles-show .lifetime { margin-top: 180px!important; } body#profiles_show .cc-2a>.c-column { width: 100%!important; } .p-profiles-show.x1200 .profile-content .c-left, .p-profiles-show.x1000 .profile-content .c-left { margin-top: 159px; } body#profiles_show .b-user.avatar img { width: 90%; } .p-profiles-show .cc-friends .b-user { margin-bottom: 0px!important; } 
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:before,
+  .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime:before { 
+    content: 'ANIME'; 
+    position: absolute;
+    top: 70px;
+    left: 11px; 
+    font-size: 10px;
+    padding: 2px 4px;
+    color: #45924C; 
+  } 
+
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:before,
+  .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga:before { 
+    content: 'MANGA'; 
+    position: absolute; 
+    top: 70px;
+    left: 58px;
+    font-size: 10px;
+    padding: 2px 4px; 
+    color: #de2b74; 
+  }
+
+  .p-profiles-show .lifetime .title .value { 
+    width: 69px; 
+    bordeR: none; 
+  } 
   
-.b-clubs{ margin-top: 15px!important; } .b-club .logo { width: 100%!important; } .b-clubs.one-line .b-club { margin-right: 6%; margin-left: 6%; width: 22%!important; } } @media screen and (max-width: 766px) and (min-width: 701px) { .c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"], .c-anime_video_episodes .b-video_variant[data-episode="16"], .c-anime_video_episodes .b-video_variant[data-episode="17"], .c-anime_video_episodes .b-video_variant[data-episode="18"] { position: absolute; margin-top: -62px; } .c-anime_video_episodes .b-video_variant[data-episode="14"] { margin-left: 294px; } 
+  .b-catalog-entry-embedded .b-catalog_entry { 
+    padding-bottom: 20px!important; 
+  }
   
-.c-anime_video_episodes .b-video_variant[data-episode="15"] { margin-left: 367px; } 
+  .entry-tooltip_container { 
+    min-height: 155px; 
+  } 
   
-.c-anime_video_episodes .b-video_variant[data-episode="16"] { margin-left: 440px; } .c-anime_video_episodes .b-video_variant[data-episode="17"] { margin-left: 513px; } .c-anime_video_episodes .b-video_variant[data-episode="18"] { margin-left: 586px; } } @media screen and (max-width: 700px) and (min-width: 625px) { .c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"], .c-anime_video_episodes .b-video_variant[data-episode="16"] { position: absolute; margin-top: -62px; } 
+  .b-add_to_list.watching .trigger, .b-add_to_list.watching .option, .b-add_to_list.rewatching .trigger,
+  .b-add_to_list.rewatching .option { 
+    max-width: 500px; 
+  } 
+
+  .p-profiles-show .lifetime .title .value {
+    margin-top: -10px; 
+    margin-right: 10px; 
+    text-align: center; 
+  } 
   
-.c-anime_video_episodes .b-video_variant[data-episode="14"] { margin-left: 367px; } .c-anime_video_episodes .b-video_variant[data-episode="15"] { margin-left: 440px; } .c-anime_video_episodes .b-video_variant[data-episode="16"] { margin-left: 513px; } .c-anime_video_episodes .b-video_variant[data-episode="17"], .c-anime_video_episodes .b-video_variant[data-episode="18"] { } } @media screen and (max-width: 624px) and (min-width: 551px) { .c-anime_video_episodes .b-video_variant[data-episode="14"] { position: absolute; margin-top: -62px; } .c-anime_video_episodes .b-video_variant[data-episode="14"] { margin-left: 440px; } } 
-
-@media screen and (max-width: 550px) and (min-width: 477px) { .c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"], .c-anime_video_episodes .b-video_variant[data-episode="16"], .c-anime_video_episodes .b-video_variant[data-episode="17"], .c-anime_video_episodes .b-video_variant[data-episode="18"] { position: absolute; margin-top: -62px; } .c-anime_video_episodes .b-video_variant[data-episode="14"] { margin-left: 75px; } .c-anime_video_episodes .b-video_variant[data-episode="15"] { margin-left: 148px; } .c-anime_video_episodes .b-video_variant[data-episode="16"] { margin-left: 221px; } 
+  .b-catalog-entry-embedded .trigger { 
+    width: 270px!important; 
+    margin-left: -110px; 
+    position: absolute; 
+    margin-top: 5px; 
+  }
   
-.c-anime_video_episodes .b-video_variant[data-episode="17"] { margin-left: 294px; } .c-anime_video_episodes .b-video_variant[data-episode="18"] { margin-left: 367px; } } @media screen and (max-width: 476px) and (min-width: 403px) { .c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"] { position: absolute; margin-top: -62px; } 
+  .b-catalog-entry-embedded .expanded-options { 
+    top: 35px; 
+    right: 110px; 
+    width: 270px; 
+  }
   
-.c-anime_video_episodes .b-video_variant[data-episode="14"] { margin-left: 221px; } .c-anime_video_episodes .b-video_variant[data-episode="15"] { margin-left: 294px; } } @media screen and (max-width: 402px) { .c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"], .c-anime_video_episodes .b-video_variant[data-episode="16"] { position: absolute; margin-top: -62px; }
+  .cc {
+    margin-bottom: 10px; 
+  }
   
-.c-anime_video_episodes .b-video_variant[data-episode="14"] { margin-left: 75px; } .c-anime_video_episodes .b-video_variant[data-episode="15"] { margin-left: 148px; } .c-anime_video_episodes .b-video_variant[data-episode="16"] { margin-left: 221px; } } * .c-brief header.head h1 { color: #dad5ff; } 
-
-.p-profiles-show .lifetime { margin-top: 0px; *margin-top: 80px; *margin-top: 0; border-radius: 5%; padding: 0px 10px 10px; } .profile-actions .ignore-add {*display: none;} .p-profiles .profile-head { overflow: visible; margin: -15px 0px 10px; position: relative; height: 320px; } .x1000 > .l-page div .profile-head { height: 320px; } .p-profiles .profile-head .c-brief { margin-bottom: 0; position: absolute; left: 0; bottom: 0; width: 100%; height: 110px; padding: 0 15px; } .p-profiles .profile-head .c-brief .avatar {margin: -30px 30px 30px 0;} .p-profiles .profile-head .c-brief .avatar .profile-actions { position: absolute; bottom: 2px; right: 15px; z-index: 2; } 
-
-.profile-actions .mail, .profile-actions .talk, .profile-actions .fav-remove, .profile-actions .ban, .profile-actions .fav-add, .profile-actions .settings, .profile-actions .ignore-add, .profile-actions .ignore-remove { margin-left: 0; padding: 10px 10px 5px; border-radius: 3px; transition: 0,3s ease; } .profile-actions .mail:hover { color: #d2892d; } .profile-actions .mail::before, .profile-actions .talk::before, .profile-actions .fav-remove::before, .profile-actions .ban::before, .profile-actions .fav-add::before, .profile-actions .settings::before .profile-actions .ignore-add::before, .profile-actions .ignore-remove::before{ font-size: 20px; } 
-
-.p-profiles .profile-head .c-brief header { padding: 14px 0 0; } 
-
-.p-profiles .profile-head .c-history, .p-profiles .profile-head .c-history.x2, .p-profiles .profile-head .c-history.x3 { background: none; border-radius: 5%; padding: 0px 5px 0px; position: absolute; right: 15px; top: 330px; z-index:2; } 
-
-.x1000 > .l-page div .profile-head .c-history.x2, .x1000 > .l-page div .profile-head .c-history.x3 { position: absolute; right: 20px; top: 330px; z-index: 2; } .profile-head .c-info .c-lists-info .b-stats_bar .stat_names .stat_name::after { padding: 0 5px 0 0; content: ","; } .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar .stat_names .stat_name::after { padding: 0 3px 0 0; content: ","; } .b-stats_bar .stat_names .stat_name .size::before, .b-stats_bar .stat_names .stat_name .size::after {display: none;} 
-
-.p-profiles-show .lifetime {margin-bottom: 0;} .p-profiles-show .profile-content .activity .title {display: none;} .profile-content > .cc-2 .c-column .cc-2a.m30 { min-height: 230px; margin-left: -40px; } .profile-content .cc-2 .c-column .cc-2a > .c-column { margin-bottom: 10px!important; float: none!important; } 
-
-.b-catalog_entry .cover .misc, .p-dashboards-show .midheadline .b-link, .p-dashboards .user_list .list-type > .title .switch, .p-dashboards .user_list .list-type > .title .link, .p-dashboards .user_list .history > .title .switch, .p-dashboards .user_list .history > .title .link, .p-dashboards .user_list .list-change .note, .p-dashboards .c-my_list .list-change .note, .p-dashboards-show .contests .contest .notice, .b-forums .forum .topics, .name-date .time, .p-profiles .profile-head .c-history .entry .misc, .p-profiles-show .lifetime .times .time, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement, .b-comment > .inner header .name-date .time, .b-replies, .b-options-floated, 
-.p-messages .mass-actions .action, .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination, .b-show_more, .b-rate .score-notice, .b-animes-menu .block-list .date, .bar.horizontal .line .x_label, .b-animes-menu .friend-rate .status, .bar.horizontal .line .bar-container .value, .b-shiki_editor footer .about-bb_codes, .bar.vertical .line .bar-container .value, .tipsy, header.head a.edit, .p-studios .studio .animes, .p-studios .studio .years, .p-contests-index .contest .date, .p-contests .contest-match .vs .help, .p-contests .contest-match .vs .next, .p-contests .contest-match .vs .finish, .p-contests .contest-match .vs .refrain,
-.p-contests .contest-match .vs .refrained, .p-contests .match-day .matches-num, .b-lang_trigger, .b-club .info, .b-user.detailed .info .last-online, .b-user.detailed .history .line .date, .p-recommendations-index .b-header_filters .hint, 
-.p-recommendations-favourites .b-header_filters .hint, .p-userlist_comparer .comparer table .notice, .p-topics .l-menu .calendar .entry .misc, .p-topics .l-menu .reviews .entry .misc, .p-topics .l-menu .clubs .entry .misc, .p-topics .l-menu .contests .contest .notice, .p-topics .l-menu .sticked-topics .topic .notice, .b-video_player .cc-player_controls .label, .b-video_player .cc-player_controls .episode-title .video-link, .b-log_entry .date, .b-log_entry .spoiler.collapse, 
-
-.b-log_entry .spoiler.collapsed, .b-log_entry .spoiler.collapse span, .b-log_entry .spoiler.collapsed span, .b-js-action, .b-input .hint, .b-review-topic .review-votes_count, .b-show_more-more .hide-more, .p-dashboard .l-menu .ongoing .misc, .p-dashboard .l-menu .season .notice, .p-topics .l-menu .sticky-topics .topic .notice, .b-hot_topics .topic, .b-dialog .to_dialog { font-size: 12px!important; }
-
-.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, header.head .misc { font-size: 12px; } .bar.vertical .line .x_label { font-size: 10px!important; } header.head .notice, .b-breadcrumbs { font-size: 13px!important; } .b-stats_bar a.title, .b-stats_bar .title { font-size: 15px; margin-bottom: 2px; line-height: 40px; } .b-forums .forum .topics { margin-top: 0; } .b-replies { padding-top: 0; } .b-options-floated { line-height: normal; } .headline > a, .midheadline > a, .subheadline > a, .p-topics .l-menu .sticky-topics .topic { overflow: visible; color: #8891d4; transition: 0.2s ease; } 
-
-.headline > a:hover, .midheadline > a:hover, .subheadline > a:hover { text-decoration: none; color: #d2892d!important; background: rgba(134, 141, 193,.15); box-shadow: 0px 0px 50px rgba(134, 141, 193,.5)!important; font-size: 14.5px; border: none!important; } 
-
-.p-topics .l-menu .sticky-topics .topic:hover .title, .p-topics .l-menu .sticky-topics .topic .title:hover:after, .p-topics .l-menu .sticky-topics .topic:hover .title:after { text-decoration: none; color: #d2892d!important; font-size: 14.5px; border: none!important; } .p-topics .l-menu .sticky-topics .topic:hover { text-decoration: none; color: #d2892d!important; background: rgba(134, 141, 193,.15); box-shadow: 0px 0px 50px rgba(134, 141, 193,.3)!important; font-size: 14.5px; border: none!important; } 
-
-.p-topics .l-menu .sticky-topics .topic, .p-topics .l-menu .sticky-topics .topic .title, .p-topics .l-menu .sticky-topics .topic .title:after { color: #dad5ff; transition: 0.2s ease; border: none!important; } 
-
-.headline, .midheadline, .subheadline { border: none; border-radius: 10%; box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important; background: rgba(46, 45, 97, 0.4); transition: 0.3s ease; font-size: 14px; box-shadow: none; color: #8891d4!important; } .subheadline .misc-link:hover { } .headline.linkheadline:hover , .linkheadline.midheadline:hover, .linkheadline.subheadline:hover, .headline:hover, .midheadline:hover, .subheadline:hover { } .subheadline { color: #8891d4; line-height: 1; padding: 7px 10px 7px; } .p-dashboards-show .midheadline .b-link { line-height: normal; vertical-align: bottom; } .b-club .info { display: block; padding: 5px 0 0; } 
-
-@font-face { font-family: 'Comfortaa'; font-style: normal; font-weight: 400; src: local('Comfortaa Regular'), local('Comfortaa-Regular'), 
-  url(https://fonts.gstatic.com/s/comfortaa/v10/Be0CkOtwwI2n86HMhtablRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2'); unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F; } 
-
-@font-face { font-family: 'Comfortaa'; font-style: normal; font-weight: 400; src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url(https://fonts.gstatic.com/s/comfortaa/v10/-DackuIFgo7Hfy3rR14C3xJtnKITppOI_IvcXXDNrsc.woff2) format('woff2'); unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; } @font-face { font-family: 'Comfortaa'; font-style: normal; font-weight: 400; src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url(https://fonts.gstatic.com/s/comfortaa/v10/UgYUhLCkRUocJ8OZnvelZxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2'); unicode-range: U+0370-03FF; } @font-face { font-family: 'Comfortaa'; font-style: normal; font-weight: 400; src: local('Comfortaa Regular'), local('Comfortaa-Regular'), 
-  url(https://fonts.gstatic.com/s/comfortaa/v10/Ao3NCHUpHgdVgp2UtibJoRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2'); unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB; } 
-
-@font-face { font-family: 'Comfortaa'; font-style: normal; font-weight: 400; src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url(https://fonts.gstatic.com/s/comfortaa/v10/wz1gqe57Mbg11v-OrLlVjhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2'); unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; } 
-
-@font-face { font-family: 'Comfortaa'; font-style: normal; font-weight: 400; src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url(https://fonts.gstatic.com/s/comfortaa/v10/qLBu5CQmSMt1H43OiWJ77VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; } @font-face { font-family: 'Comfortaa'; font-style: normal; font-weight: 700; src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI6-j2U0lmluP9RWlSytm3ho.woff2) format('woff2'); unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F; } 
-
-@font-face { font-family: 'Comfortaa'; font-style: normal; font-weight: 700; src: local('Comfortaa Bold'), local('Comfortaa-Bold'), 
-  url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI5X5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2'); unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
-
-@font-face { font-family: 'Comfortaa'; font-style: normal; font-weight: 700; src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI6aRobkAwv3vxw3jMhVENGA.woff2) format('woff2'); unicode-range: U+0370-03FF; } @font-face { font-family: 'Comfortaa'; font-style: normal; font-weight: 700; src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI_8zf_FOSsgRmwsS7Aa9k2w.woff2) format('woff2'); unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB; } @font-face { font-family: 'Comfortaa'; font-style: normal; font-weight: 700; src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJIz0LW-43aMEzIO6XUTLjad8.woff2) format('woff2'); unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; } 
-
-@font-face { font-family: 'Comfortaa'; font-style: normal; font-weight: 700; src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI-gdm0LZdjqr5-oayXSOefg.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; } body { font-family: 'Comfortaa', sans-serif!important } 
-
-.l-top_menu .menu-items > .entry > a { line-height: 20px; } .b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img, .b-user16 img, .b-club .logo, .b-comment > .inner header img, .p-profiles-edit .account .avatar-edit img, .b-user.detailed .info .image-name .image, .b-message > .inner header img, .b-hot_topics .topic a.with-author img, .b-dialog > .inner header img, .p-topics .l-menu .clubs .entry img { border-radius: 50%; border:2px solid rgba(46, 45, 97,0.6); transition: 1s ease; } .b-user16 img { margin-top: 0px; } .menu .avatar, div.avatar img { border-radius: 50%; } 
-
-.mfp-bg { opacity: 0; } .b-to-top { width: 50%; } .to-top-fix { display: none; } .b-to-top .arrow { top: 70px; } .b-feedback { display: none; } .b-input.boolean { display: table; } .b-sponsors_block_3 { display: none!important; } 
-
-header.head h1 a.back::after, header.head h2 a.back::after { display: none; } header.head h1 a.back::before, header.head h2 a.back::before { left: 6px; top: -28px; } .b-comment { padding-top: 10px; } .b-comment:first-child { border-top-width: 0 !important; } .b-comment .inner { min-height: 50px; } .b-comment > .inner header img { margin: 0 10px 0 0; } .b-comment > .inner header .name-date { overflow: visible; margin-left: 60px; } .b-quote { margin: 5px 0; } .b-comment > .inner div.body, .b-message > .inner div.body { margin-left: 58px; } .b-dialog > .inner div.body { margin-left: 58px; } .b-dialog > .inner div.body .inner div.body { margin-left: 40px; } .b-replies { clear: none; padding-top: 0; } .b-quote { font-style: normal; border-radius: 2px; } 
-
-.l-page::before, .l-page::after { display: none!important; } .p-dashboards-show .cc-ongoings, .p-dashboards-show .cc-second { margin-bottom: 45px; } .b-link_button.maxi, .create-topic { font-size: 12px; text-transform: uppercase; } 
-
-.p-dashboards .animes .others, .p-dashboards .mangas .others { margin-top: 10px; } .b-forums div.block {padding: 0px 5px;} .p-dashboards-show .c-my_list { padding: 5px 10px 0; border: none!important; background: rgba(46, 45, 97,0.4); } .p-dashboards-show .cc-news .c-news_topics .b-topic { border-top-width: 1px; padding-top: 10px; } .p-dashboards-show .cc-news .c-news_topics .b-topic {margin-bottom: 30px;} .p-dashboards-show .cc-news .c-generated_news .b-topic {margin-bottom: 5px;} .c-generated_news div.block {margin-bottom: 15px;} .headline.linkheadline > a, .linkheadline.midheadline > a, .linkheadline.subheadline > a { text-decoration: none; } 
-
-.headline.linkheadline > a:hover, .linkheadline.midheadline > a:hover, .linkheadline.subheadline > a:hover { text-decoration: none; } 
-
-.subheadline-input {padding: 4px 0 4px 5px;} .b-review-topic.mini {margin-bottom: 20px;} .b-topic.b-review-topic > .inner header img {border-radius: 50%;} .review-votes_count {margin-bottom: 20px;} .b-topic.b-review-topic > .inner header .name { margin-top: 7px; display: inline-block; } .b-list {margin-left: 3px;} .b-list li { list-style: none outside none; margin-bottom: 0; } 
-
-.bar.vertical .line {border-right: 1px solid transparent;} .b-stats_bar.anime .bar {overflow: visible;} .b-stats_bar .bar { height: 16px; line-height: 16px; margin-bottom: 6px; } .b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third { font-size: 12px; height: 16px; line-height: 16px; } @media only screen and (min-width: 1025px) { .userbox #sign_in { margin-top: 14px; } .l-top_menu { color: white; border-bottom: none; position: fixed; z-index: 10; height: 50px; left: 0; right: 0; top: 0; margin: 0 auto; width: 100%!important; box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3); } .x1200 .l-top_menu .inner { max-width: 1200px; } 
+  .l-page { 
+    padding: 10px!important; 
+  }
   
-.x1000 .l-top_menu .inner { max-width: 1200px; } .x1000 .l-page, .x1200 .l-page { max-width: 1200px; } 
+  .b-options-floated.mobile-desktop a {
+    width: 250px; 
+  }
   
-.l-top_menu .menu-items > .entry > a { background-color: #d2892d; color: white; line-height: 21px; text-transform: uppercase; } .l-top_menu .menu-items > .entry > .submenu { background: #31345fd6!important; color: #d2892d; transition: all 0.3s ease-in; opacity: 0; visibility: hidden; height: auto!important; opacity: 0.1; border-radius:4px; box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3)!important; margin-top: 3px; } .l-top_menu .menu > .entry:hover > .submenu { background-color: transparent; background: transparent; color: white; opacity: 1; visibility: visible; height: auto!important; color: white; border-radius:4px; } 
+  .subheadline.m13 { 
+    left: 5px!important; 
+  }
   
-.l-top_menu .submenu { border: 0; background-color: transparent; background: transparent; color: white; border-radius:0px; } 
-  
-.l-top_menu .submenu > .entry { background: transparent!important; color: #dad5ff; border-bottom: none; font-size: 13px; height: 30px; line-height: 30px; font-family: 'Comfortaa'; min-width: 125px; padding: 0 15px 0; text-transform: none; border-radius: 4px; transition:0.05s ease-in-out; } .l-top_menu .menu-items>.entry > a:hover { background-color: #31345f69!important; border-radius: 0px; } .l-top_menu .menu > .entry.userbox { background-color: transparent; color: white; height: 50px !important; padding: 0 10px 0 0 !important; } .l-top_menu .menu > .entry.userbox:hover, .userbox .submenu.right:hover { background-color:transparent!important; background:transparent!important; opacity:1!important; }
-  
-.l-top_menu .inner .logo { background-color: transparent; color: white; background-position: center; height: 93%; width: 120px; margin: 0; min-width: 120px; }
-  
-.l-top_menu .menu-items, .l-top_menu .menu-items:hover { position: static; margin-left: 120px; width: 470px; background-color: transparent; color: white; display: inline-block; padding: 0; } .l-top_menu .submenu.right, .l-top_menu .submenu.right:hover { margin-top: 8px!important; background-color: transparent; color: white; } 
-  
-.l-top_menu .menu-userbox > .entry:hover { background-color: rgba(46, 45, 97, 1); color: white; text-decoration: none; cursor: default; } .l-top_menu .menu-items > .entry > .contest,.l-top_menu .menu-items > .entry > .contest:hover { background-color: rgba(46, 45, 97, 1); color: white; margin: 15px 10px 0 0; padding: 10px 0 !important; } .userbox img.avatar, .menu .unread-count {margin-top: 0!important;} .menu .unread-count, .menu .contest {margin-left: 11px;} .menu .unread-count, .menu .contest { background: #d2892d!important; width: 25.5px; height: 25px; line-height: 28px; margin-top: -1px!important; font-size: 16px; } .menu .unread-count { position: absolute; right: 70px; margin-top: 13.5px!important; z-index: 9999; padding: 0!important; } 
-  
-.x1000 .menu .unread-count { padding: 0!important; transition: 0.3s ease; } .menu:hover .unread-count, .menu:hover .contest { background: #d2892d; } .menu .unread-count:hover { background: #d2892d!important; } .userbox > a .graphics-arrow-down {display: none;} .userbox .submenu { display: inline-block!important; height: auto!important; position: relative; float: none!important; background: transparent; margin-left: 0px!important; margin-right: -6px!important; overflow: visible; } .x1000 .userbox .submenu {margin-left: 0px!important;} 
-  
-.userbox .submenu.right { height: 0!important; margin-top: 0px!important; top: -6px; } .userbox .submenu > .entry { background: transparent; border-bottom: none; display: inline-block; min-width: auto!important; line-height: 20px; width: 20px; padding: 0 8px; margin-left: 15px; } .userbox .submenu > .entry:before { visibility: visible!important; border-radius: 1px; transition: backround-color, 0.3s; background: #5a5a5a; color: #f9f9f9; display: block; float: right !important; font-size: 12px; text-align: center; height: 21px; line-height: 21px; } .userbox .submenu > .entry[href*='/list/anime'] { width: 61px; } 
-  
-.userbox .submenu > .entry[href*='/list/manga'] { width: 61px; margin-left: 5px; } .userbox .submenu > .entry[href*='/list/anime']:before { content: "АНИМЕ"; width: 61px; font-size: 11.5px; background:none!important; line-height:24px; } 
-  
-.userbox .submenu > .entry[href*='/list/manga']:before { content: "МАНГА"; width: 61px; font-size: 11.5px; line-height:24px; background:none!important; } 
-  
-.userbox .submenu > .entry[href*='/list/anime']:after { font: normal normal normal 14px/1 FontAwesome; text-rendering: auto; -webkit-font-smoothing: antialiased; content: '\f008'!important; background-image: none!important; background-color: transparent!important; background-position: center; background-size: 20px!important; font-size: 25px!important; color: #7c7fb347; z-index: -1; top: -8px; text-align: center; left: 7px; position: absolute; width: 61px; visibility: visible; height: 26px; transition:0.3s ease; padding:5px 0px } 
-  
-.userbox .submenu > .entry[href*='/list/manga']:after { font: normal normal normal 14px/1 FontAwesome; text-rendering: auto; -webkit-font-smoothing: antialiased; content: '\f02d'!important; background-image: none!important; background-color: transparent!important; background-position: center; background-size: 20px!important; font-size: 27px!important; color: #7c7fb347; z-index: -1; top: -8px; text-align: center; left: 73px; position: absolute; width: 61px; visibility: visible; height: 26px; transition:0.3s ease; padding:5px 0px } .userbox .submenu > .entry[href*='/list/anime']:hover:after, .userbox .submenu > .entry[href*='/list/manga']:hover:after { color:#d2892d5e!important; border-radius:6px; background-color: rgba(46, 45, 97, 0.6)!important; } 
-  
-.userbox .submenu > .entry[href*='/list/anime']:hover:before, .userbox .submenu > .entry[href*='/list/manga']:hover:before { } .userbox .submenu > .entry { visibility: hidden!important; } } 
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:before
+  , .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime:before { 
+    left: 6px; 
+  }
 
-.l-top_menu .menu > .entry.b-main_search { padding: 13px 10px !important; } .b-main_search .input { height: 25px; padding: 6px 10px; border-radius: 12px; }
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:before,
+  .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga:before { 
+    left: 53px; 
+  } 
 
-.b-main_search .input input { font-size: 12px; line-height: 12px; width: 90%!important; }
-
-.b-main_search.hovered .popup { opacity: 0.8; visibility: visible; } .b-main_search .suggest-placeholder { margin-top: 6px; margin-left: -9px; } .ac_results li { padding: 4px 5px; } .ac_results { background:none; } 
-
-.ac_results, .completable-block { border: none; font-size: 12px; margin-top: 2px; } .ac_results .character-suggest .animes div a, .ac_results .character-suggest .animes div, .completable-block .character-suggest .animes div { } .ac_results .character-suggest .animes div a:hover {text-decoration: underline;} .l-page { min-height: 300px; margin: 50px auto 0px; position: relative; border-radius: 0px; } .x1000 .l-page { margin: 65px auto 15px; border-radius: 8px; } @media only screen and (min-width: 1025px) { .l-top_menu .menu > .entry > a, .x1000 .l-top_menu .menu > .entry > a { padding:16px 12px 12px; } 
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime,
+  .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime, 
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga,
+  .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga {
+    padding: 0px 15px; 
+  } 
   
-.l-top_menu .menu-items > .entry.calendar > a, .l-top_menu .menu-items > .entry.info > a {} .x1000 .l-top_menu .submenu > .entry {padding: 0 8px 0;} .x1000 .l-top_menu .menu-items > .entry.calendar > a, .x1000 .l-top_menu .menu-items > .entry.info > a { margin-left: 0 !important; line-height: 28px; padding-top: 5px; margin-bottom: -2px; } } @media all and (min-width: 1024px) and (max-width: 1025px) { .l-top_menu .submenu > .entry {padding: 0 8px 0;} 
+  .profile-actions .mail, .profile-actions .talk, .profile-actions .fav-remove
+  , .profile-actions .ban, .profile-actions .fav-add, .profile-actions .settings,
+  .profile-actions .ignore-add, .profile-actions .ignore-remove { 
+    padding: 5px 8px 5px!important; 
+  } 
   
-.l-top_menu .menu > .entry > a {padding: 16px 12px 10px;} .l-top_menu .menu-items > .entry.calendar > a, .l-top_menu .menu-items > .entry.info > a {} } @media only screen and (max-width: 1100px) { .b-comments-notifier {display: none!important;} } @media all and (min-width: 1200px) { .l-page {margin: 65px auto 15px; border-radius: 2px;} } div.compatibility > a > .text.weak:before { color: #af8d58; } div.compatibility > a:hover > .text.weak:before, div.compatibility > span.link-replacement > .text.weak:before { background-color: #F0F4C3; color: #C0CA33; } div.compatibility > a > .text.moderate:before { background-color: #F1F8E9; color: #8BC34A; } 
+  .p-profiles .profile-head .c-brief .avatar .profile-actions { 
+    width: 110px; 
+  } 
 
-div.compatibility > a:hover > .text.moderate:before, div.compatibility > span.link-replacement > .text.moderate:before { background-color: #DCEDC8; color: #7CB342; } 
-
-div.compatibility > a > .text.high:before { background-color: #ADFF2F; color: #ADFF2F; } div.compatibility > a:hover > .text.high:before, div.compatibility > span.link-replacement > .text.high:before { background-color: #C8E6C9; color: #43A047; } div.compatibility > a > .text.full:before { background-color: #E1F5FE; color: #03A9F4; } div.compatibility > a:hover > .text.full:before, div.compatibility > span.link-replacement > .text.full:before { background-color: #B3E5FC; color: #039BE5; } .p-profiles-show .l-top_menu { animation: none!important; transition: none!important; } .p-profiles-show .l-page { animation: none!important; transition: none!important; height: auto; }
-
-.cm-s-solarized.cm-s-light { background-color: #1f1f1f; color: #657b83; text-shadow: none; } 
+  .profile-content > .cc-2 .c-column .cc-2a.m30 { 
+    margin-top: -572px;
+  } 
   
-.b-edit_styles .edit_style .style_css .CodeMirror, .b-edit_styles .new_style .style_css .CodeMirror { border: 1px solid #000; } .cm-s-solarized.cm-s-light .CodeMirror-gutters { background-color: #272727; } .cm-searching { background-color: #ffa; background-color: rgba(169, 120, 17, 0.4); } .cm-s-solarized.cm-s-light div.CodeMirror-selected { background: rgba(107, 105, 101, 0.4); } .CodeMirror-dialog-top { border-bottom: none; top: 0px; background: #171717; } .CodeMirror-search-field { width:400px!important; } .editor-container .buttons.m15 { margin-bottom: 5px !important; position: fixed; top: 77px; right: 20px; z-index: 100; } 
+  .p-profiles-show .lifetime { 
+    margin-top: 180px!important; 
+  } 
+  
+  body#profiles_show .cc-2a>.c-column { 
+    width: 100%!important; 
+  } 
+  
+  .p-profiles-show.x1200 .profile-content .c-left, .p-profiles-show.x1000 .profile-content .c-left {
+    margin-top: 159px; 
+  }
+  
+  body#profiles_show .b-user.avatar img { 
+    width: 90%; 
+  }
+  
+  .p-profiles-show .cc-friends .b-user { 
+    margin-bottom: 0px!important; 
+  } 
 
-.p-profiles-show .l-top_menu { animation: none!important; transition: none!important; } 
+  .b-clubs{ 
+    margin-top: 15px!important; 
+  } 
+  
+  .b-club .logo { 
+    width: 100%!important; 
+  } 
+  
+  .b-clubs.one-line .b-club { 
+    margin-right: 6%;
+    margin-left: 6%; 
+    width: 22%!important; 
+  } 
+}
 
-.p-profiles-show .l-page { animation: none!important; transition: none!important; } .p-profiles .profile-head:hover .c-brief .avatar img { transform: scale(0.9); animation: buuts 1s ease 1!important; } .l-page { background-color: rgba(10, 13, 33, 0.7); box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3)!important; border-radius: 8px; } .l-top_menu { background: rgba(10, 13, 34, 0.7); box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3); } @keyframes activity { 0%, 100% { transform: translateY(1px); background-color: #131442; } 50% { transform: translateY(5px); background-color:#7e7be4; } }
+@media screen and (max-width: 766px) and (min-width: 701px) { 
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="14"], 
+  .c-anime_video_episodes .b-video_variant[data-episode="15"], .c-anime_video_episodes .b-video_variant[data-episode="16"],
+  .c-anime_video_episodes .b-video_variant[data-episode="17"], .c-anime_video_episodes .b-video_variant[data-episode="18"] {
+    position: 
+      absolute; margin-top: -62px; 
+  } 
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] { 
+    margin-left: 294px; 
+  } 
 
-.activity .graph.vertical .line:nth-of-type(6n+2) .bar { animation-delay: -.25s; } .activity .graph.vertical .line:nth-of-type(6n+4) .bar { animation-delay: -.5s; } .activity .graph.vertical .line:nth-of-type(6n+3) .bar { animation-delay: -.75s; } .activity .graph.vertical .line:nth-of-type(6n+6) 
+  .c-anime_video_episodes .b-video_variant[data-episode="15"] { 
+    margin-left: 367px; 
+  } 
 
-.bar { animation-delay: -1s; } .activity .graph.vertical .line:nth-of-type(6n+5) .bar { animation-delay: -1.25s; } 
+  .c-anime_video_episodes .b-video_variant[data-episode="16"] { 
+    margin-left: 440px; 
+  } 
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="17"] { 
+    margin-left: 513px; 
+  } 
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="18"] { 
+    margin-left: 586px; 
+  }
+}
 
-666 Уберите/добавьте чтобы включить/отключить альmернативную анимацию списков. Стандартно анимация не присутствует. 666 */ .p-profiles .profile-head .c-info .c-lists-info:hover { animation: none!important; transition: none!important; } .p-profiles .profile-head .c-info .c-lists-info { transition: none!important; transform: scale(1)!important; opacity: 1!important; } .p-profiles .profile-head:hover .c-brief .avatar img { animation: none!important; transform: scale(1); } 
+@media screen and (max-width: 700px) and (min-width: 625px) { 
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"],
+  .c-anime_video_episodes .b-video_variant[data-episode="16"] { 
+    position: absolute; 
+    margin-top: -62px; 
+  } 
 
-777 Уберите/добавьте чтобы включить/отключить анимацию аватарки - "сердцебеение". Стандартно анимация не присутствует. 777 */ .p-profiles .profile-head .c-brief .avatar img { animation: none; animation-delay: 2s; -webkit-filter: brightness(1); } 
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] { 
+    margin-left: 367px;
+  }
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="15"] { 
+    margin-left: 440px; 
+  } 
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="16"] { 
+    margin-left: 513px; 
+  } 
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="17"], .c-anime_video_episodes .b-video_variant[data-episode="18"] {
+  }
+} 
 
-#!/usr/bin/env python3 # -*- coding: UTF-8 -*- import sys import pickle import pandas as pd from collections import OrderedDict from functools import lru_cache from sqlalchemy import create_engine from parsers import ongoings, anime365, sovetromantica, sibnet, anilibria, misc from parsers.tools import catch from shikimori import routes, models def import_to_db(from_pickle = False): engine = create_engine(open(".env").read(), echo=True) index = routes.get_index(models.AnimeVideo) if not from_pickle: result = find_all_ongoings() else: result = pickle.load(open("ongoings.pkl", "rb")) result["id"] = 
-range(index + 1, index + len(result) + 1) result.to_sql(name='anime_videos', con=engine, if_exists = 'append', index=False) 
-def save(pd_dataframe, from_pickle = False, format = "sql"): if not from_pickle: result = pd_dataframe else: result = pickle.load(open("ongoings.pkl", "rb")) if format == "pkl": pickle.dump(result, open("ongoings.pkl", "wb")) elif format == "sql": table = result.values.tolist() header = "INSERT INTO anime_videos (" + ", ".join(result.columns) + ") VALUES " res = [header] for row in table: res.append("(" +", ".join(["\"%s\"" %i for i in row]) + "),") res[-1] = res[-1][:-1] + ";" open("ongoings.sql", "wb").write("".join(res).encode("u8")) 
-def find_animes(parsers = OrderedDict([ ("anilibria", anilibria.AnilibriaParser), ("smotretanime", anime365.Anime365Parser), 
-("sovetromantica", sovetromantica.SRParser), ("sibnet", sibnet.SibnetParser) ]), anime_ids = [], fetch_only_ongoings = True, fetch_all_episodes = False, filter_by_unique_url = True, use_anime_aliases = True): ongoings.main() if fetch_only_ongoings: anime_ids = ongoings.ONGOING_IDS else: anime_ids = [i for i in anime_ids if not i in ongoings.ONGOING_IDS] result = pd.DataFrame(columns = ["anime_id", "anime_english", "anime_russian", "watches_count", "uploader", "url", "episode", "kind", "quality", "language", "author"]) for hosting, Parser in parsers.items(): print("hosting: " + hosting) parser = Parser() total = len(anime_ids) 
-for n, id in enumerate(anime_ids, start = 1): note = "found" shiki_ongoing_data = {} try: anime_info = routes.get_anime_info(id) except: if not fetch_only_ongoings: note = "not found" print("[%d / %d]: %s" % (n, total, note)) continue catch() shiki_ongoing_data = ongoings.parse_ongoing(ongoings.get_ongoing_html(id)) if not shiki_ongoing_data["anime_russian"] or not shiki_ongoing_data["anime_english"]: note = "not found in database and couldn't retrieve anime names, skipping" print("[%d / %d]: %s: %s" % (n, total, anime_info["anime_english"], note)) continue note = "not found in database, will create first entries" 
-anime_info = { "anime_english": shiki_ongoing_data["anime_english"], "anime_russian": shiki_ongoing_data["anime_russian"], "duration": 0 } 
-print("[%d / %d] %s: %s" % (n, total, anime_info["anime_english"], note)) if anime_info["anime_english"] in misc.SKIP: note = "anime was explicitly specified to skip fetch" print("[%d / %d] %s: %s" % (n, total, anime_info["anime_english"], note)) continue search_kwargs = {} if fetch_only_ongoings: if not shiki_ongoing_data: shiki_ongoing_data = ongoings.parse_ongoing(ongoings.get_ongoing_html(id)) if shiki_ongoing_data["type"]: #print("type: %s" % shiki_ongoing_data["type"]) search_kwargs["type_"] = shiki_ongoing_data["type"] if use_anime_aliases: search_kwargs["anime_aliases"] = [anime_info["anime_russian"]] 
-if not parser.search_anime(anime_info["anime_english"], **search_kwargs): note = "not found" print("[%d / %d] %s: %s" % (n, total, anime_info["anime_english"], note)) 
-continue max_episode = routes.get_max_episode_for_hosting(id, hosting) episode_from = 1 episode_to = 1 # HAX: more appropriate solution? # When fetching non-ongoings, set episode_to to high value for now to fetch all episodes. if not fetch_only_ongoings: episode_to = 9999 if fetch_only_ongoings: if not fetch_all_episodes: latest = 1 if parser.fetch_latest_episode else 0 if shiki_ongoing_data["episodes_available"] - (1 - latest) = max_episode: note = "already fetched all available episodes" print("[%d / %d] %s: %s" % (n, total, anime_info["anime_english"], note)) continue episode_from = max_episode + 1 episode_to = shiki_ongoing_data["episodes_available"] + latest else: episode_from = 1 if shiki_ongoing_data: 
-episode_to = shiki_ongoing_data["episodes_available"] + 1 print("[%d / %d] %s: %s" % (n, total, anime_info["anime_english"], note)) tmp_videos_list = pd.DataFrame(columns = ["url", "episode", "kind", "quality", "video_hosting", "language", "author"]) for episode_num in range(episode_from, episode_to): df = parser.get_videos_list(anime_info["anime_english"], episode_num) if (isinstance(df, type(None))) or df.empty: note = "no videos found" if not fetch_only_ongoings: note = "the max boundary episode_to was not specified." 
-note += " Skipping fetch because episode %d was not found." % episode_num print("[%d / %d] %s (%d / %d): %s" % (n, total, anime_info["anime_english"], episode_num, episode_to, note)) break print("[%d / %d] %s (%d / %d): %s" % (n, total, anime_info["anime_english"], episode_num, episode_to, note)) print("[%d / %d] %s (%d / %d)" % (n, total, anime_info["anime_english"], episode_num, episode_to)) tmp_videos_list = tmp_videos_list.append(df, ignore_index = True, sort = False) tmp_videos_list["anime_id"] = str(id) tmp_videos_list["anime_english"] = anime_info["anime_english"] tmp_videos_list["anime_russian"] = anime_info["anime_russian"] tmp_videos_list["watches_count"] = "0" 
-tmp_videos_list["uploader"] = "importbot" del tmp_videos_list["video_hosting"] #print(tmp_videos_list.values.tolist()) if filter_by_unique_url: ongoing_all_videos = [o.url for o in models.AnimeVideo.query.filter(models.AnimeVideo.anime_id == id).all()] tmp_videos_list = tmp_videos_list[~tmp_videos_list.url.isin(ongoing_all_videos)] 
+@media screen and (max-width: 624px) and (min-width: 551px) { 
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] { 
+    position: absolute; 
+    margin-top: -62px; 
+  }
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] { 
+    margin-left: 440px; 
+  } 
+} 
 
+@media screen and (max-width: 550px) and (min-width: 477px) { 
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"],
+  .c-anime_video_episodes .b-video_variant[data-episode="16"], .c-anime_video_episodes .b-video_variant[data-episode="17"],
+  .c-anime_video_episodes .b-video_variant[data-episode="18"] { 
+    position: absolute; 
+    margin-top: -62px;
+  } 
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] { 
+    margin-left: 75px; 
+  } 
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="15"] { 
+    margin-left: 148px; 
+  }
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="16"] { 
+    margin-left: 221px; 
+  } 
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="17"] { 
+    margin-left: 294px; 
+  }
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="18"] {
+    margin-left: 367px; 
+  } 
+}
+
+@media screen and (max-width: 476px) and (min-width: 403px) { 
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="14"],
+  .c-anime_video_episodes .b-video_variant[data-episode="15"] { 
+    position: absolute;
+    margin-top: -62px; 
+  } 
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] { 
+    margin-left: 221px; 
+  }
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="15"] { 
+    margin-left: 294px;
+  } 
+}
+
+@media screen and (max-width: 402px) { 
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"], 
+  .c-anime_video_episodes .b-video_variant[data-episode="16"] { 
+    position: absolute; 
+    margin-top: -62px; 
+  }
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] { 
+    margin-left: 75px; 
+  }
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="15"] { 
+    margin-left: 148px; 
+  } 
+  
+  .c-anime_video_episodes .b-video_variant[data-episode="16"] {
+    margin-left: 221px; 
+  } 
+} 
+
+* .c-brief header.head h1 { 
+  color: #dad5ff; 
+} 
+
+.p-profiles-show .lifetime { 
+  margin-top: 0px; 
+  *margin-top: 80px; 
+  *margin-top: 0; 
+  border-radius: 5%; 
+  padding: 0px 10px 10px; 
+}
+
+.profile-actions .ignore-add {
+  *display: none;
+}
+
+.p-profiles .profile-head { 
+  overflow: visible;
+  margin: -15px 0px 10px;
+  position: relative; 
+  height: 320px; 
+} 
+
+.x1000 > .l-page div .profile-head { 
+  height: 320px; 
+}
+
+.p-profiles .profile-head .c-brief { 
+  margin-bottom: 0;
+  position: absolute;
+  left: 0; 
+  bottom: 0; 
+  width: 100%; 
+  height: 110px; 
+  padding: 0 15px; 
+} 
+
+.p-profiles .profile-head .c-brief .avatar {
+  margin: -30px 30px 30px 0;
+} 
+
+.p-profiles .profile-head .c-brief .avatar .profile-actions { 
+  position: absolute;
+  bottom: 2px; 
+  right: 15px;
+  z-index: 2; 
+} 
+
+.profile-actions .mail, .profile-actions .talk, .profile-actions .fav-remove, .profile-actions .ban,
+.profile-actions .fav-add, .profile-actions .settings, .profile-actions .ignore-add,
+.profile-actions .ignore-remove { 
+  margin-left: 0;
+  padding: 10px 10px 5px;
+  border-radius: 3px; 
+  transition: 0,3s ease; 
+}
+
+.profile-actions .mail:hover { 
+  color: #d2892d; 
+} 
+
+.profile-actions .mail::before, .profile-actions .talk::before, .profile-actions .fav-remove::before,
+.profile-actions .ban::before, .profile-actions .fav-add::before,
+.profile-actions .settings::before .profile-actions .ignore-add::before, .profile-actions .ignore-remove::before { 
+  font-size: 20px; 
+} 
+
+.p-profiles .profile-head .c-brief header { 
+  padding: 14px 0 0; 
+} 
+
+.p-profiles .profile-head .c-history, .p-profiles .profile-head .c-history.x2,
+.p-profiles .profile-head .c-history.x3 { 
+  background: none; 
+  border-radius: 5%; 
+  padding: 0px 5px 0px; 
+  position: absolute; 
+  right: 15px; 
+  top: 330px; 
+  z-index:2; 
+} 
+
+.x1000 > .l-page div .profile-head .c-history.x2, .x1000 > .l-page div .profile-head .c-history.x3 { 
+  position: absolute;
+  right: 20px; 
+  top: 330px; 
+  z-index: 2; 
+}
+
+.profile-head .c-info .c-lists-info .b-stats_bar .stat_names .stat_name::after {
+  padding: 0 5px 0 0; 
+  content: ","; 
+} 
+
+.x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar .stat_names .stat_name::after {
+  padding: 0 3px 0 0;
+  content: ","; 
+} 
+
+.b-stats_bar .stat_names .stat_name .size::before, .b-stats_bar .stat_names .stat_name .size::after {
+  display: none;
+} 
+
+.p-profiles-show .lifetime {
+  margin-bottom: 0;
+}
+
+.p-profiles-show .profile-content .activity .title {
+  display: none;
+}
+
+.profile-content > .cc-2 .c-column .cc-2a.m30 { 
+  min-height: 230px; 
+  margin-left: -40px; 
+}
+
+.profile-content .cc-2 .c-column .cc-2a > .c-column { 
+  margin-bottom: 10px!important; 
+  float: none!important; 
+} 
+
+.b-catalog_entry .cover .misc, .p-dashboards-show .midheadline .b-link,
+.p-dashboards .user_list .list-type > .title .switch, .p-dashboards .user_list .list-type > .title .link,
+.p-dashboards .user_list .history > .title .switch, .p-dashboards .user_list .history > .title .link,
+.p-dashboards .user_list .list-change .note, .p-dashboards .c-my_list .list-change .note,
+.p-dashboards-show .contests .contest .notice, .b-forums .forum .topics, .name-date .time,
+.p-profiles .profile-head .c-history .entry .misc, .p-profiles-show .lifetime .times .time,
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement,
+.b-comment > .inner header .name-date .time, .b-replies, .b-options-floated, 
+.p-messages .mass-actions .action, .p-animes_collection-index .pagination, 
+.p-mangas_collection-index .pagination, .p-recommendations-index .pagination,
+.p-userlist_comparer-show .pagination, .b-show_more, .b-rate .score-notice, .b-animes-menu .block-list .date,
+.bar.horizontal .line .x_label, .b-animes-menu .friend-rate .status, .bar.horizontal .line .bar-container .value,
+.b-shiki_editor footer .about-bb_codes, .bar.vertical .line .bar-container .value, .tipsy, header.head a.edit,
+.p-studios .studio .animes, .p-studios .studio .years, .p-contests-index .contest .date, .p-contests .contest-match .vs .help,
+.p-contests .contest-match .vs .next, .p-contests .contest-match .vs .finish, .p-contests .contest-match .vs .refrain,
+.p-contests .contest-match .vs .refrained, .p-contests .match-day .matches-num, .b-lang_trigger, .b-club .info,
+.b-user.detailed .info .last-online, .b-user.detailed .history .line .date, .p-recommendations-index .b-header_filters .hint, 
+.p-recommendations-favourites .b-header_filters .hint, .p-userlist_comparer .comparer table .notice,
+.p-topics .l-menu .calendar .entry .misc, .p-topics .l-menu .reviews .entry .misc, .p-topics .l-menu .clubs .entry .misc,
+.p-topics .l-menu .contests .contest .notice, .p-topics .l-menu .sticked-topics .topic .notice, 
+.b-video_player .cc-player_controls .label, .b-video_player .cc-player_controls .episode-title .video-link,
+.b-log_entry .date, .b-log_entry .spoiler.collapse, 
+.b-log_entry .spoiler.collapsed, .b-log_entry .spoiler.collapse span, .b-log_entry .spoiler.collapsed span,
+.b-js-action, .b-input .hint, .b-review-topic .review-votes_count, .b-show_more-more .hide-more,
+.p-dashboard .l-menu .ongoing .misc, .p-dashboard .l-menu .season .notice,
+.p-topics .l-menu .sticky-topics .topic .notice, .b-hot_topics .topic, .b-dialog .to_dialog { 
+  font-size: 12px!important; 
+}
+
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, header.head .misc { 
+  font-size: 12px; 
+} 
+
+.bar.vertical .line .x_label { 
+  font-size: 10px!important;
+} 
+
+header.head .notice, .b-breadcrumbs { 
+  font-size: 13px!important; 
+}
+
+.b-stats_bar a.title, .b-stats_bar .title { 
+  font-size: 15px;
+  margin-bottom: 2px; 
+  line-height: 40px; 
+} 
+
+.b-forums .forum .topics { 
+  margin-top: 0; 
+} 
+
+.b-replies { 
+  padding-top: 0; 
+}
+
+.b-options-floated { 
+  line-height: normal; 
+}
+
+.headline > a, .midheadline > a, .subheadline > a, .p-topics .l-menu .sticky-topics .topic { 
+  overflow: visible;
+  color: #8891d4; 
+  transition: 0.2s ease; 
+} 
+
+.headline > a:hover, .midheadline > a:hover, .subheadline > a:hover { 
+  text-decoration: none; 
+  color: #d2892d!important;
+  background: rgba(134, 141, 193,.15); 
+  box-shadow: 0px 0px 50px rgba(134, 141, 193,.5)!important;
+  font-size: 14.5px; 
+  border: none!important; 
+} 
+
+.p-topics .l-menu .sticky-topics .topic:hover .title, .p-topics .l-menu .sticky-topics .topic .title:hover:after,
+.p-topics .l-menu .sticky-topics .topic:hover .title:after {
+  text-decoration: none; 
+  color: #d2892d!important; 
+  font-size: 14.5px; 
+  border: none!important; }
+
+.p-topics .l-menu .sticky-topics .topic:hover { 
+  text-decoration: none; 
+  color: #d2892d!important; 
+  background: rgba(134, 141, 193,.15);
+  box-shadow: 0px 0px 50px rgba(134, 141, 193,.3)!important;
+  font-size: 14.5px;
+  border: none!important; 
+} 
+
+.p-topics .l-menu .sticky-topics .topic, .p-topics .l-menu .sticky-topics .topic .title,
+.p-topics .l-menu .sticky-topics .topic .title:after { 
+  color: #dad5ff; 
+  transition: 0.2s ease; 
+  border: none!important; 
+} 
+
+.headline, .midheadline, .subheadline { 
+  border: none; 
+  border-radius: 10%; 
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important;
+  background: rgba(46, 45, 97, 0.4); 
+  transition: 0.3s ease;
+  font-size: 14px; 
+  box-shadow: none;
+  color: #8891d4!important; } 
+
+.subheadline .misc-link:hover { 
+} 
+
+.headline.linkheadline:hover , .linkheadline.midheadline:hover, .linkheadline.subheadline:hover,
+.headline:hover, .midheadline:hover, .subheadline:hover {
+} 
+
+.subheadline { 
+  color: #8891d4; 
+  line-height: 1; 
+  padding: 7px 10px 7px; 
+} 
+
+.p-dashboards-show .midheadline .b-link { 
+  line-height: normal; 
+  vertical-align: bottom; 
+}
+
+.b-club .info { 
+  display: block; 
+  padding: 5px 0 0; 
+} 
+
+@font-face { 
+  font-family: 'Comfortaa';
+  font-style: normal; 
+  font-weight: 400; 
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), 
+    url(https://fonts.gstatic.com/s/comfortaa/v10/Be0CkOtwwI2n86HMhtablRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2'); 
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F; 
+} 
+
+@font-face { 
+  font-family: 'Comfortaa'; 
+  font-style: normal;
+  font-weight: 400; 
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), 
+    url(https://fonts.gstatic.com/s/comfortaa/v10/-DackuIFgo7Hfy3rR14C3xJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+} 
+
+@font-face { 
+  font-family: 'Comfortaa';
+  font-style: normal; 
+  font-weight: 400; 
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), 
+    url(https://fonts.gstatic.com/s/comfortaa/v10/UgYUhLCkRUocJ8OZnvelZxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2'); 
+  unicode-range: U+0370-03FF;
+} 
+
+@font-face { 
+  font-family: 'Comfortaa'; 
+  font-style: normal; 
+  font-weight: 400; 
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), 
+    url(https://fonts.gstatic.com/s/comfortaa/v10/Ao3NCHUpHgdVgp2UtibJoRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2'); 
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB; 
+} 
+
+@font-face {
+  font-family: 'Comfortaa'; 
+  font-style: normal; 
+  font-weight: 400; 
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), 
+    url(https://fonts.gstatic.com/s/comfortaa/v10/wz1gqe57Mbg11v-OrLlVjhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2'); 
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; 
+} 
+
+@font-face { 
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400; 
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), 
+    url(https://fonts.gstatic.com/s/comfortaa/v10/qLBu5CQmSMt1H43OiWJ77VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'); 
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; 
+} 
+
+@font-face { 
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700; 
+  src: local('Comfortaa Bold'), local('Comfortaa-Bold'), 
+    url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI6-j2U0lmluP9RWlSytm3ho.woff2) format('woff2'); 
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F; 
+} 
+
+@font-face { 
+  font-family: 'Comfortaa'; 
+  font-style: normal; 
+  font-weight: 700; 
+  src: local('Comfortaa Bold'), local('Comfortaa-Bold'), 
+    url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI5X5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2'); 
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; 
+}
+
+@font-face { 
+  font-family: 'Comfortaa';
+  font-style: normal; 
+  font-weight: 700; 
+  src: local('Comfortaa Bold'), local('Comfortaa-Bold'),
+    url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI6aRobkAwv3vxw3jMhVENGA.woff2) format('woff2'); 
+  unicode-range: U+0370-03FF; 
+} 
+
+@font-face { 
+  font-family: 'Comfortaa'; 
+  font-style: normal; 
+  font-weight: 700; 
+  src: local('Comfortaa Bold'), local('Comfortaa-Bold'), 
+    url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI_8zf_FOSsgRmwsS7Aa9k2w.woff2) format('woff2'); 
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB; 
+} 
+
+@font-face { 
+  font-family: 'Comfortaa'; 
+  font-style: normal; 
+  font-weight: 700; 
+  src: local('Comfortaa Bold'), local('Comfortaa-Bold'), 
+    url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJIz0LW-43aMEzIO6XUTLjad8.woff2) format('woff2'); 
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; 
+} 
+
+@font-face { 
+  font-family: 'Comfortaa'; 
+  font-style: normal; 
+  font-weight: 700; 
+  src: local('Comfortaa Bold'), local('Comfortaa-Bold'), 
+    url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI-gdm0LZdjqr5-oayXSOefg.woff2) format('woff2'); 
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; 
+} 
+
+body { 
+  font-family: 'Comfortaa', sans-serif!important 
+} 
+
+.l-top_menu .menu-items > .entry > a {
+  line-height: 20px; 
+}
+
+.b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img, .b-user16 img, .b-club .logo,
+.b-comment > .inner header img, .p-profiles-edit .account .avatar-edit img, .b-user.detailed .info .image-name .image, 
+.b-message > .inner header img, .b-hot_topics .topic a.with-author img, .b-dialog > .inner header img,
+.p-topics .l-menu .clubs .entry img { 
+  border-radius: 50%; 
+  border:2px solid rgba(46, 45, 97,0.6); 
+  transition: 1s ease; 
+}
+
+.b-user16 img { 
+  margin-top: 0px;
+} 
+
+.menu .avatar, div.avatar img { 
+  border-radius: 50%; 
+} 
+
+.mfp-bg { 
+  opacity: 0; 
+} 
+
+.b-to-top { 
+  width: 50%; 
+} 
+
+.to-top-fix { 
+  display: none; 
+} 
+
+.b-to-top .arrow {
+  top: 70px; 
+} 
+
+.b-feedback { 
+  display: none; 
+} 
+
+.b-input.boolean {
+  display: table; 
+} 
+
+.b-sponsors_block_3 { 
+  display: none!important; 
+} 
+
+header.head h1 a.back::after, header.head h2 a.back::after { 
+  display: none; 
+} 
+
+header.head h1 a.back::before, header.head h2 a.back::before { 
+  left: 6px; top: -28px; 
+}
+
+.b-comment { 
+  padding-top: 10px; 
+} 
+
+.b-comment:first-child { 
+  border-top-width: 0 !important; 
+} 
+
+.b-comment .inner { 
+  min-height: 50px; 
+} 
+
+.b-comment > .inner header img { 
+  margin: 0 10px 0 0; 
+}
+
+.b-comment > .inner header .name-date { 
+  overflow: visible; margin-left: 60px; 
+} 
+
+.b-quote { 
+  margin: 5px 0; 
+} 
+
+.b-comment > .inner div.body, .b-message > .inner div.body {
+  margin-left: 58px; 
+}
+
+.b-dialog > .inner div.body { 
+  margin-left: 58px; 
+}
+
+.b-dialog > .inner div.body .inner div.body { 
+  margin-left: 40px; 
+}
+
+.b-replies { 
+  clear: none; padding-top: 0; 
+}
+
+.b-quote { 
+  font-style: normal; border-radius: 2px; 
+} 
+
+.l-page::before, .l-page::after { 
+  display: none!important; 
+}
+
+.p-dashboards-show .cc-ongoings, .p-dashboards-show .cc-second {
+  margin-bottom: 45px; 
+}
+
+.b-link_button.maxi, .create-topic { 
+  font-size: 12px; 
+  text-transform: uppercase; 
+} 
+
+.p-dashboards .animes .others, .p-dashboards .mangas .others { 
+  margin-top: 10px; 
+}
+
+.b-forums div.block {
+  padding: 0px 5px;
+} 
+
+.p-dashboards-show .c-my_list { 
+  padding: 5px 10px 0; 
+  border: none!important; 
+  background: rgba(46, 45, 97,0.4); 
+}
+
+.p-dashboards-show .cc-news .c-news_topics .b-topic { 
+  border-top-width: 1px; 
+  padding-top: 10px; 
+}
+
+.p-dashboards-show .cc-news .c-news_topics .b-topic {
+  margin-bottom: 30px;
+} 
+
+.p-dashboards-show .cc-news .c-generated_news .b-topic {
+  margin-bottom: 5px;
+} 
+
+.c-generated_news div.block {
+  margin-bottom: 15px;
+} 
+
+.headline.linkheadline > a, .linkheadline.midheadline > a, .linkheadline.subheadline > a { 
+  text-decoration: none; 
+} 
+
+.headline.linkheadline > a:hover, .linkheadline.midheadline > a:hover, .linkheadline.subheadline > a:hover {
+  text-decoration: none; 
+} 
+
+.subheadline-input {
+  padding: 4px 0 4px 5px;
+} 
+
+.b-review-topic.mini {
+  margin-bottom: 20px;
+}
+
+.b-topic.b-review-topic > .inner header img {
+  border-radius: 50%;
+} 
+
+.review-votes_count {
+  margin-bottom: 20px;
+} 
+
+.b-topic.b-review-topic > .inner header .name { 
+  margin-top: 7px;
+  display: inline-block; 
+}
+
+.b-list {
+  margin-left: 3px;
+} 
+
+.b-list li { 
+  list-style: none outside none; 
+  margin-bottom: 0; 
+} 
+
+.bar.vertical .line {
+  border-right: 1px solid transparent;
+}
+
+.b-stats_bar.anime .bar {
+  overflow: visible;
+} 
+
+.b-stats_bar .bar { 
+  height: 16px;
+  line-height: 16px;
+  margin-bottom: 6px; 
+} 
+
+.b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third {
+  font-size: 12px;
+  height: 16px;
+  line-height: 16px; 
+} 
+
+@media only screen and (min-width: 1025px) {
+  
+  .userbox #sign_in { 
+    margin-top: 14px; 
+  }
+  
+  .l-top_menu { 
+    color: white; 
+    border-bottom: none; 
+    position: fixed;
+    z-index: 10; 
+    height: 50px;
+    left: 0; 
+    right: 0;
+    top: 0; 
+    margin: 0 auto;
+    width: 100%!important;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3); 
+  } 
+  
+  .x1200 .l-top_menu .inner { 
+    max-width: 1200px;
+  } 
+  
+  .x1000 .l-top_menu .inner { 
+    max-width: 1200px; 
+  } 
+  
+  .x1000 .l-page, .x1200 .l-page {
+    max-width: 1200px; 
+  } 
+  
+  .l-top_menu .menu-items > .entry > a { 
+    background-color: #d2892d;
+    color: white;
+    line-height: 21px;
+    text-transform: uppercase;
+  } 
+  
+  .l-top_menu .menu-items > .entry > .submenu {
+    background: #31345fd6!important; 
+    color: #d2892d; 
+    transition: all 0.3s ease-in;
+    opacity: 0; 
+    visibility: hidden;
+    height: auto!important; 
+    opacity: 0.1;
+    border-radius:4px; 
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3)!important;
+    margin-top: 3px; 
+  } 
+  
+  .l-top_menu .menu > .entry:hover > .submenu {
+    background-color: transparent; 
+    background: transparent; 
+    color: white;
+    opacity: 1;
+    visibility: visible;
+    height: auto!important;
+    color: white; 
+    border-radius:4px; 
+  } 
+
+  .l-top_menu .submenu { 
+    border: 0; 
+    background-color: transparent;
+    background: transparent;
+    color: white; border-radius:0px; 
+  } 
+  
+  .l-top_menu .submenu > .entry {
+    background: transparent!important; 
+    color: #dad5ff; 
+    border-bottom: none;
+    font-size: 13px;
+    height: 30px; 
+    line-height: 30px; 
+    font-family: 'Comfortaa';
+    min-width: 125px;
+    padding: 0 15px 0; 
+    text-transform: none; 
+    border-radius: 4px;
+    transition:0.05s ease-in-out;
+  } 
+  
+  .l-top_menu .menu-items>.entry > a:hover { 
+    background-color: #31345f69!important;
+    border-radius: 0px; 
+  } 
+  
+  .l-top_menu .menu > .entry.userbox { 
+    background-color: transparent;
+    color: white; 
+    height: 50px !important; 
+    padding: 0 10px 0 0 !important; 
+  } 
+  
+  .l-top_menu .menu > .entry.userbox:hover, .userbox .submenu.right:hover { 
+    background-color:transparent!important; 
+    background:transparent!important; 
+    opacity:1!important; 
+  }
+
+  .l-top_menu .inner .logo { 
+    background-color: transparent;
+    color: white; 
+    background-position: center;
+    height: 93%; 
+    width: 120px; 
+    margin: 0; 
+    min-width: 120px; 
+  }
+
+  .l-top_menu .menu-items, .l-top_menu .menu-items:hover { 
+    position: static;
+    margin-left: 120px;
+    width: 470px; 
+    background-color: transparent; 
+    color: white;
+    display: inline-block; 
+    padding: 0; 
+  } 
+  
+  .l-top_menu .submenu.right, .l-top_menu .submenu.right:hover { 
+    margin-top: 8px!important;
+    background-color: transparent;
+    color: white; 
+  } 
+
+  .l-top_menu .menu-userbox > .entry:hover { 
+    background-color: rgba(46, 45, 97, 1);
+    color: white; 
+    text-decoration: none;
+    cursor: default; 
+  } 
+  
+  .l-top_menu .menu-items > .entry > .contest,.l-top_menu .menu-items > .entry > .contest:hover { 
+    background-color: rgba(46, 45, 97, 1);
+    color: white;
+    margin: 15px 10px 0 0; 
+    padding: 10px 0 !important; 
+  } 
+  
+  .userbox img.avatar, .menu .unread-count {
+    margin-top: 0!important;
+  } 
+  
+  .menu .unread-count, .menu .contest {
+    margin-left: 11px;
+  } 
+  
+  .menu .unread-count, .menu .contest { 
+    background: #d2892d!important;
+    width: 25.5px;
+    height: 25px; 
+    line-height: 28px;
+    margin-top: -1px!important; 
+    font-size: 16px; 
+  } 
+  
+  .menu .unread-count {
+    position: absolute;
+    right: 70px; 
+    margin-top: 13.5px!important;
+    z-index: 9999; 
+    padding: 0!important; 
+  } 
+
+  .x1000 .menu .unread-count {
+    padding: 0!important; 
+    transition: 0.3s ease; 
+  } 
+  
+  .menu:hover .unread-count, .menu:hover .contest { 
+    background: #d2892d; 
+  } 
+  
+  .menu .unread-count:hover { 
+    background: #d2892d!important; 
+  } 
+  
+  .userbox > a .graphics-arrow-down {
+    display: none;
+  } 
+  
+  .userbox .submenu { 
+    display: inline-block!important; 
+    height: auto!important; 
+    position: relative; 
+    float: none!important;
+    background: transparent; 
+    margin-left: 0px!important;
+    margin-right: -6px!important;
+    overflow: visible; 
+  } 
+  
+  .x1000 .userbox .submenu {
+    margin-left: 0px!important;
+  } 
+
+  .userbox .submenu.right { 
+    height: 0!important; 
+    margin-top: 0px!important; 
+    top: -6px; 
+  } 
+  
+  .userbox .submenu > .entry { 
+    background: transparent; 
+    border-bottom: none;
+    display: inline-block;
+    min-width: auto!important;
+    line-height: 20px;
+    width: 20px; 
+    padding: 0 8px; 
+    margin-left: 15px; 
+  } 
+  
+  .userbox .submenu > .entry:before {
+    visibility: visible!important; 
+    border-radius: 1px; 
+    transition: backround-color, 0.3s;
+    background: #5a5a5a; 
+    color: #f9f9f9; 
+    display: block;
+    float: right !important; 
+    font-size: 12px;
+    text-align: center;
+    height: 21px;
+    line-height: 21px; 
+  } 
+  
+  .userbox .submenu > .entry[href*='/list/anime'] { 
+    width: 61px; 
+  } 
+  
+  .userbox .submenu > .entry[href*='/list/manga'] {
+    width: 61px; 
+    margin-left: 5px; 
+  } 
+  
+  .userbox .submenu > .entry[href*='/list/anime']:before { 
+    content: "АНИМЕ";
+    width: 61px; 
+    font-size: 11.5px; 
+    background:none!important; 
+    line-height:24px; 
+  } 
+  
+  .userbox .submenu > .entry[href*='/list/manga']:before { 
+    content: "МАНГА"; 
+    width: 61px; 
+    font-size: 11.5px; 
+    line-height:24px; 
+    background:none!important; 
+  } 
+  
+  .userbox .submenu > .entry[href*='/list/anime']:after { 
+    font: normal normal normal 14px/1 FontAwesome; 
+    text-rendering: auto; 
+    -webkit-font-smoothing: antialiased; 
+    content: '\f008'!important; 
+    background-image: none!important;
+    background-color: transparent!important;
+    background-position: center;
+    background-size: 20px!important;
+    font-size: 25px!important;
+    color: #7c7fb347;
+    z-index: -1; 
+    top: -8px; 
+    text-align: center;
+    left: 7px; 
+    position: absolute;
+    width: 61px;
+    visibility: visible;
+    height: 26px; 
+    transition:0.3s ease;
+    padding:5px 0px 
+  } 
+  
+  .userbox .submenu > .entry[href*='/list/manga']:after { 
+    font: normal normal normal 14px/1 FontAwesome; 
+    text-rendering: auto; 
+    -webkit-font-smoothing: antialiased;
+    content: '\f02d'!important; 
+    background-image: none!important;
+    background-color: transparent!important;
+    background-position: center;
+    background-size: 20px!important;
+    font-size: 27px!important;
+    color: #7c7fb347;
+    z-index: -1; 
+    top: -8px;
+    text-align: center; 
+    left: 73px;
+    position: absolute; 
+    width: 61px;
+    visibility: visible;
+    height: 26px; 
+    transition:0.3s ease;
+    padding:5px 0px 
+  } 
+  
+  .userbox .submenu > .entry[href*='/list/anime']:hover:after, .userbox .submenu > .entry[href*='/list/manga']:hover:after { 
+    color:#d2892d5e!important;
+    border-radius:6px; 
+    background-color: rgba(46, 45, 97, 0.6)!important; 
+  } 
+  
+  .userbox .submenu > .entry[href*='/list/anime']:hover:before, .userbox .submenu > .entry[href*='/list/manga']:hover:before {
+  } 
+  
+  .userbox .submenu > .entry { 
+    visibility: hidden!important; 
+  } 
+} 
+
+.l-top_menu .menu > .entry.b-main_search { 
+  padding: 13px 10px !important; 
+} 
+
+.b-main_search .input { 
+  height: 25px;
+  padding: 6px 10px; 
+  border-radius: 12px; 
+}
+
+.b-main_search .input input { 
+  font-size: 12px; 
+  line-height: 12px; 
+  width: 90%!important;
+}
+
+.b-main_search.hovered .popup { 
+  opacity: 0.8; 
+  visibility: visible; 
+} 
+
+.b-main_search .suggest-placeholder {
+  margin-top: 6px; 
+  margin-left: -9px; 
+}
+
+.ac_results li { 
+  padding: 4px 5px; 
+} 
+
+.ac_results { 
+  background:none; 
+} 
+
+.ac_results, .completable-block { 
+  border: none;
+  font-size: 12px;
+  margin-top: 2px; 
+}
+
+.ac_results .character-suggest .animes div a, .ac_results .character-suggest .animes div,
+.completable-block .character-suggest .animes div { 
+} 
+
+.ac_results .character-suggest .animes div a:hover {
+  text-decoration: underline;
+} 
+
+.l-page { 
+  min-height: 300px; 
+  margin: 50px auto 0px;
+  position: relative;
+  border-radius: 0px; 
+}
+
+.x1000 .l-page { 
+  margin: 65px auto 15px; 
+  border-radius: 8px; 
+} 
+
+@media only screen and (min-width: 1025px) {
+  
+  .l-top_menu .menu > .entry > a, .x1000 .l-top_menu .menu > .entry > a { 
+    padding:16px 12px 12px; 
+  } 
+  
+  .l-top_menu .menu-items > .entry.calendar > a, .l-top_menu .menu-items > .entry.info > a {
+  } 
+  
+  .x1000 .l-top_menu .submenu > .entry {
+    padding: 0 8px 0;
+  } 
+  
+  .x1000 .l-top_menu .menu-items > .entry.calendar > a, .x1000 .l-top_menu .menu-items > .entry.info > a {
+    margin-left: 0 !important;
+    line-height: 28px;
+    padding-top: 5px; 
+    margin-bottom: -2px; 
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1025px) { 
+  
+  .l-top_menu .submenu > .entry {
+    padding: 0 8px 0;
+  } 
+
+  .l-top_menu .menu > .entry > a {
+    padding: 16px 12px 10px;
+  } 
+  
+  .l-top_menu .menu-items > .entry.calendar > a, .l-top_menu .menu-items > .entry.info > a {
+  } 
+} 
+
+@media only screen and (max-width: 1100px) { 
+  
+  .b-comments-notifier {
+    display: none!important;
+  } 
+}
+
+@media all and (min-width: 1200px) { 
+  
+  .l-page {
+    margin: 65px auto 15px; 
+    border-radius: 2px;
+  } 
+} 
+
+div.compatibility > a > .text.weak:before { 
+  color: #af8d58; 
+} 
+
+div.compatibility > a:hover > .text.weak:before, div.compatibility > span.link-replacement > .text.weak:before {
+  background-color: #F0F4C3;
+  color: #C0CA33; 
+} 
+
+div.compatibility > a > .text.moderate:before {
+  background-color: #F1F8E9;
+  color: #8BC34A; 
+} 
+
+div.compatibility > a:hover > .text.moderate:before, 
+div.compatibility > span.link-replacement > .text.moderate:before {
+  background-color: #DCEDC8;
+  color: #7CB342; 
+} 
+
+div.compatibility > a > .text.high:before { 
+  background-color: #ADFF2F; 
+  color: #ADFF2F; 
+} 
+
+div.compatibility > a:hover > .text.high:before, div.compatibility > span.link-replacement > .text.high:before { 
+  background-color: #C8E6C9; 
+  color: #43A047; 
+} 
+
+div.compatibility > a > .text.full:before { 
+  background-color: #E1F5FE;
+  color: #03A9F4; 
+} 
+
+div.compatibility > a:hover > .text.full:before, div.compatibility > span.link-replacement > .text.full:before { 
+  background-color: #B3E5FC;
+  color: #039BE5;
+} 
+
+.p-profiles-show .l-top_menu { 
+  animation: none!important;
+  transition: none!important; 
+} 
+
+.p-profiles-show .l-page { 
+  animation: none!important; 
+  transition: none!important; 
+  height: auto; 
+}
+
+.cm-s-solarized.cm-s-light { 
+  background-color: #1f1f1f; 
+  color: #657b83; 
+  text-shadow: none; 
+} 
+  
+.b-edit_styles .edit_style .style_css .CodeMirror, .b-edit_styles .new_style .style_css .CodeMirror { 
+  border: 1px solid #000; 
+}
+
+.cm-s-solarized.cm-s-light .CodeMirror-gutters {
+  background-color: #272727; 
+} 
+
+.cm-searching { 
+  background-color: #ffa;
+  background-color: rgba(169, 120, 17, 0.4); 
+} 
+
+.cm-s-solarized.cm-s-light div.CodeMirror-selected { 
+  background: rgba(107, 105, 101, 0.4); 
+} 
+
+.CodeMirror-dialog-top { 
+  border-bottom: none; 
+  top: 0px;
+  background: #171717; 
+} 
+
+.CodeMirror-search-field { 
+  width:400px!important; 
+}
+
+.editor-container .buttons.m15 { 
+  margin-bottom: 5px !important;
+  position: fixed; 
+  top: 77px; 
+  right: 20px; 
+  z-index: 100; 
+} 
+
+.p-profiles-show .l-top_menu { 
+  animation: none!important; 
+  transition: none!important; 
+} 
+
+.p-profiles-show .l-page { 
+  animation: none!important; 
+  transition: none!important; 
+} 
+
+.p-profiles .profile-head:hover .c-brief .avatar img { 
+  transform: scale(0.9);
+  animation: buuts 1s ease 1!important;
+}
+
+.l-page { 
+  background-color: rgba(10, 13, 33, 0.7); 
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3)!important; 
+  border-radius: 8px; 
+} 
+
+.l-top_menu { 
+  background: rgba(10, 13, 34, 0.7); 
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3); 
+} 
+
+@keyframes activity { 
+  0%, 100% { 
+    transform: translateY(1px); background-color: #131442; 
+  } 
+  50% { 
+    transform: translateY(5px); background-color:#7e7be4; 
+  } 
+}
+
+.activity .graph.vertical .line:nth-of-type(6n+2) .bar { 
+  animation-delay: -.25s; 
+} 
+
+.activity .graph.vertical .line:nth-of-type(6n+4) .bar {
+  animation-delay: -.5s; 
+} 
+
+.activity .graph.vertical .line:nth-of-type(6n+3) .bar { 
+  animation-delay: -.75s; 
+} 
+
+.activity .graph.vertical .line:nth-of-type(6n+6) .bar { 
+  animation-delay: -1s; 
+} 
+
+.activity .graph.vertical .line:nth-of-type(6n+5) .bar { 
+  animation-delay: -1.25s; 
+} 
+
+666 Уберите/добавьте чтобы включить/отключить альmернативную анимацию списков. Стандартно анимация не присутствует. 666 */ 
+.p-profiles .profile-head .c-info .c-lists-info:hover { 
+  animation: none!important; 
+  transition: none!important; 
+} 
+
+.p-profiles .profile-head .c-info .c-lists-info {
+  transition: none!important;
+  transform: scale(1)!important;
+  opacity: 1!important; 
+} 
+
+.p-profiles .profile-head:hover .c-brief .avatar img { 
+  animation: none!important; 
+  transform: scale(1); 
+} 
+
+777 Уберите/добавьте чтобы включить/отключить анимацию аватарки - "сердцебеение". Стандартно анимация не присутствует. 777 */ 
+
+.p-profiles .profile-head .c-brief .avatar img { 
+  animation: none; 
+  animation-delay: 2s; 
+  -webkit-filter: brightness(1); 
+} 
+
+#!/usr/bin/env python3 # -*- coding: UTF-8 -*- import sys import pickle import pandas as pd from collections import OrderedDict from functools import lru_cache from sqlalchemy import create_engine from parsers import ongoings, anime365, sovetromantica, sibnet, anilibria, misc from parsers.tools import catch from shikimori import routes, models def import_to_db(from_pickle = False): engine = create_engine(open(".env").read(), echo=True) index = routes.get_index(models.AnimeVideo) if not from_pickle: result = find_all_ongoings() else: result = pickle.load(open("ongoings.pkl", "rb")) result["id"] = range(index + 1, index + len(result) + 1) result.to_sql(name='anime_videos', con=engine, if_exists = 'append', index=False) def save(pd_dataframe, from_pickle = False, format = "sql"): if not from_pickle: result = pd_dataframe else: result = pickle.load(open("ongoings.pkl", "rb")) if format == "pkl": pickle.dump(result, open("ongoings.pkl", "wb")) elif format == "sql": table = result.values.tolist() header = "INSERT INTO anime_videos (" + ", ".join(result.columns) + ") VALUES " res = [header] for row in table: res.append("(" +", ".join(["\"%s\"" %i for i in row]) + "),") res[-1] = res[-1][:-1] + ";" open("ongoings.sql", "wb").write("".join(res).encode("u8")) def find_animes(parsers = OrderedDict([ ("anilibria", anilibria.AnilibriaParser), ("smotretanime", anime365.Anime365Parser), ("sovetromantica", sovetromantica.SRParser), ("sibnet", sibnet.SibnetParser) ]), anime_ids = [], fetch_only_ongoings = True, fetch_all_episodes = False, filter_by_unique_url = True, use_anime_aliases = True): ongoings.main() if fetch_only_ongoings: anime_ids = ongoings.ONGOING_IDS else: anime_ids = [i for i in anime_ids if not i in ongoings.ONGOING_IDS] result = pd.DataFrame(columns = ["anime_id", "anime_english", "anime_russian", "watches_count", "uploader", "url", "episode", "kind", "quality", "language", "author"]) for hosting, Parser in parsers.items(): print("hosting: " + hosting) parser = Parser() total = len(anime_ids) for n, id in enumerate(anime_ids, start = 1): note = "found" shiki_ongoing_data = {} try: anime_info = routes.get_anime_info(id) except: if not fetch_only_ongoings: note = "not found" print("[%d / %d]: %s" % (n, total, note)) continue catch() shiki_ongoing_data = ongoings.parse_ongoing(ongoings.get_ongoing_html(id)) if not shiki_ongoing_data["anime_russian"] or not shiki_ongoing_data["anime_english"]: note = "not found in database and couldn't retrieve anime names, skipping" print("[%d / %d]: %s: %s" % (n, total, anime_info["anime_english"], note)) continue note = "not found in database, will create first entries" anime_info = { "anime_english": shiki_ongoing_data["anime_english"], "anime_russian": shiki_ongoing_data["anime_russian"], "duration": 0 } print("[%d / %d] %s: %s" % (n, total, anime_info["anime_english"], note)) if anime_info["anime_english"] in misc.SKIP: note = "anime was explicitly specified to skip fetch" print("[%d / %d] %s: %s" % (n, total, anime_info["anime_english"], note)) continue search_kwargs = {} if fetch_only_ongoings: if not shiki_ongoing_data: shiki_ongoing_data = ongoings.parse_ongoing(ongoings.get_ongoing_html(id)) if shiki_ongoing_data["type"]: #print("type: %s" % shiki_ongoing_data["type"]) search_kwargs["type_"] = shiki_ongoing_data["type"] if use_anime_aliases: search_kwargs["anime_aliases"] = [anime_info["anime_russian"]] if not parser.search_anime(anime_info["anime_english"], **search_kwargs): note = "not found" print("[%d / %d] %s: %s" % (n, total, anime_info["anime_english"], note)) continue max_episode = routes.get_max_episode_for_hosting(id, hosting) episode_from = 1 episode_to = 1 # HAX: more appropriate solution? # When fetching non-ongoings, set episode_to to high value for now to fetch all episodes. if not fetch_only_ongoings: episode_to = 9999 if fetch_only_ongoings: if not fetch_all_episodes: latest = 1 if parser.fetch_latest_episode else 0 if shiki_ongoing_data["episodes_available"] - (1 - latest) = max_episode: note = "already fetched all available episodes" print("[%d / %d] %s: %s" % (n, total, anime_info["anime_english"], note)) continue episode_from = max_episode + 1 episode_to = shiki_ongoing_data["episodes_available"] + latest else: episode_from = 1 if shiki_ongoing_data: episode_to = shiki_ongoing_data["episodes_available"] + 1 print("[%d / %d] %s: %s" % (n, total, anime_info["anime_english"], note)) tmp_videos_list = pd.DataFrame(columns = ["url", "episode", "kind", "quality", "video_hosting", "language", "author"]) for episode_num in range(episode_from, episode_to): df = parser.get_videos_list(anime_info["anime_english"], episode_num) if (isinstance(df, type(None))) or df.empty: note = "no videos found" if not fetch_only_ongoings: note = "the max boundary episode_to was not specified." note += " Skipping fetch because episode %d was not found." % episode_num print("[%d / %d] %s (%d / %d): %s" % (n, total, anime_info["anime_english"], episode_num, episode_to, note)) break print("[%d / %d] %s (%d / %d): %s" % (n, total, anime_info["anime_english"], episode_num, episode_to, note)) print("[%d / %d] %s (%d / %d)" % (n, total, anime_info["anime_english"], episode_num, episode_to)) tmp_videos_list = tmp_videos_list.append(df, ignore_index = True, sort = False) tmp_videos_list["anime_id"] = str(id) tmp_videos_list["anime_english"] = anime_info["anime_english"] tmp_videos_list["anime_russian"] = anime_info["anime_russian"] tmp_videos_list["watches_count"] = "0" tmp_videos_list["uploader"] = "importbot" del tmp_videos_list["video_hosting"] #print(tmp_videos_list.values.tolist()) if filter_by_unique_url: ongoing_all_videos = [o.url for o in models.AnimeVideo.query.filter(models.AnimeVideo.anime_id == id).all()] tmp_videos_list = tmp_videos_list[~tmp_videos_list.url.isin(ongoing_all_videos)] 
 result = result.append(tmp_videos_list, ignore_index = True, sort = False) return result
