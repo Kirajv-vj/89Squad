@@ -47,7 +47,8 @@ html {
 } 
 
 .b-spoiler_block, .b-spoiler_block(.is-opened), .b-spoiler_block.is-fullwidth.is-centered.is-opened, 
-.b-spoiler_block.is-fullwidth, .b-spoiler_block.is-centered, .b-spoiler_block.is-opened  {
+.b-spoiler_block.is-fullwidth, .b-spoiler_block.is-centered, .b-spoiler_block.is-opened, .b-spoiler_block>div,
+.b-spoiler_block. is-fullwidth. is-centered. is-opened {
   background-color: #f3f5f700;
 }
 
