@@ -1,4 +1,7 @@
 /* User Custom Styles */ 
+.b-spoiler_block {
+  background-color: #f3f5f700;
+}
 
 body { 
   background: url(/assets/background/square_bg.png) repeat; 
@@ -60,6 +63,7 @@ html {
 .l-top_menu .menu-userbox { 
   width:270px; 
 } 
+
 
 .menu .unread-count { 
   padding: 0!important; 
