@@ -1,5 +1,6 @@
 /* User Custom Styles */ 
-.b-spoiler_block {
+
+.b-spoiler_block>div {
   background-color: #f3f5f700;
 }
 
