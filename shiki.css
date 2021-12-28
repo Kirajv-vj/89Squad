@@ -50,6 +50,10 @@ html {
   background-color: #f3f5f700;
 }
 
+.b-spoiler_block(.is-opened) {
+  background-color: #f3f5f700;
+}
+
 .l-top_menu .menu-search { 
   width: 17%!important; 
   width: 165px!important;
