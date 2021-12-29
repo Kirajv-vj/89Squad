@@ -47,7 +47,7 @@ html {
 } 
 
 .b-spoiler_block>div, .b-spoiler_block, .b-spoiler_block.is-fullwidth.is-centered.is-opened,
-.b-spoiler_block>div.b-spoiler_block.is-fullwidth.is-centered.is-opened {
+.b-spoiler_block>div.b-spoiler_block.is-fullwidth.is-centered.is-opened, .b-spoiler_block.is-fullwidth.is-centered.is-opened>div {
   background-color: rgba(255, 255, 255, 0)!important;
 }
 
