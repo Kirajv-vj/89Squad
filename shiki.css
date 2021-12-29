@@ -49,7 +49,7 @@ html {
 .b-spoiler_block>div, .b-spoiler_block, .b-spoiler_block.is-fullwidth.is-centered.is-opened, .spoiler_block,
 .b-spoiler_block>div.b-spoiler_block.is-fullwidth.is-centered.is-opened, .b-spoiler_block.is-fullwidth.is-centered.is-opened>div,
 .b-spoiler_block .is-fullwidth .is-centered .is-opened, .b-spoiler_block>div:after, .b-spoiler_block>div>.b-list,
-.b-spoiler_block>div center, .b-quote-v2 {
+.b-spoiler_block>div center, .b-quote-v2, div .b-spoiler_block, div.b-spoiler_block {
   background-color: #f3f5f700!important;
 }
 
